@@ -8,12 +8,13 @@ Anyone is welcome to help improve translations or add support for new languages.
 
 # How To Contribute
 
-1. Open the `locales` folder
-2. Select your language file
-3. Click the pencil icon near the top-right
-4. Edit translations
-5. Click **Commit changes**
-6. Open a Pull Request
+1. Create a fork through the [fork button](https://github.com/YoungLionIV/stateofcommand-localization/fork)
+2. Open the `locales` folder
+3. Select your language file
+4. Click the pencil icon near the top-right
+5. Edit translations
+6. Click **Commit changes**
+7. Open a Pull Request
 
 To make a new file:
 
