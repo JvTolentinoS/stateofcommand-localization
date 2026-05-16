@@ -110,7 +110,7 @@ editor.label.modified=[ИЗМЕНЕНО]
 editor.label.no_map=Карта не загружена — откройте Браузер ресурсов для загрузки набора карт
 
 # Editor| Resource Browser
-editor.window.resource_browser=Просмотр ресурсов
+editor.window.resource_browser=Браузер ресурсов
 editor.tab.maps=Карты
 editor.tab.units=Юниты
 editor.tab.flags=Флаги
