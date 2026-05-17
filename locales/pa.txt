@@ -1,0 +1,371 @@
+# -------------------------------------
+# State of Command: Punjabi locale
+# Format: key=value
+# Lines starting with # are comments
+# -------------------------------------
+
+# Main Menu
+menu.button.start_game=ਖੇਡ ਸ਼ੁਰੂ ਕਰੋ
+menu.button.profile=ਪ੍ਰੋਫਾਈਲ
+menu.button.settings=ਸੈਟਿੰਗਜ਼
+menu.button.quit=ਛੱਡੋ
+menu.intro.presented_by=ਤੁਹਾਡੇ ਲਈ ਪੇਸ਼ ਕੀਤਾ ਗਿਆ
+menu.intro.layth_issam_elzaim=ਲ ੇ ਯ ਥ  ਇ ਸ ਸ ਾ ਮ  ਏ ਲ  ਜ਼ ੈ ਮ
+# You can transliterate or get the equivalent of my name in your language, 
+#make sure to do a space between each character that is next to each other, 
+#and double space where there would normally be 1 space.
+
+# Settings| NEW STUFF AND THAT'S IT [No other updates past my name and the settings for now]
+ui.settings.title=ਸੈਟਿੰਗਜ਼
+ui.settings.tab.graphics=ਗ੍ਰਾਫਿਕਸ
+ui.settings.tab.language=ਭਾਸ਼ਾ
+ui.settings.tab.game_visuals=ਖੇਡ ਦ੍ਰਿਸ਼
+
+ui.settings.resolution=ਰੈਜ਼ੋਲਿਊਸ਼ਨ
+ui.settings.window_mode=ਵਿੰਡੋ ਮੋਡ
+
+ui.settings.language=ਭਾਸ਼ਾ
+
+# UI Manager| Flag Bar
+ui.button.diplomacy=ਕੂਟਨੀਤੀ
+ui.button.economy=ਅਰਥਵਿਵਸਥਾ
+ui.button.unset=ਅਣਸੈੱਟ
+ui.button.military=ਫੌਜ
+
+# UI Manager| Country Select
+ui.button.play_as=ਵਜੋਂ ਖੇਡੋ
+
+# UI Manager| Settings
+ui.window.settings=ਸੈਟਿੰਗਜ਼
+ui.settings.secondary_icons=ਸੈਕੰਡਰੀ ਯੂਨਿਟ ਆਈਕਨ ਵਰਤੋ
+ui.settings.flag_zoom_out=ਜ਼ੂਮ ਆਊਟ 'ਤੇ ਝੰਡਾ ਦਿਖਾਓ (ਯੂਨਿਟ)
+ui.settings.nation_overlay=ਦੇਸ਼ ਓਵਰਲੇ (N)
+ui.settings.always_flag=ਯੂਨਿਟਾਂ 'ਤੇ ਹਮੇਸ਼ਾ ਝੰਡਾ ਦਿਖਾਓ (F)
+ui.settings.unit_size=ਯੂਨਿਟ ਆਕਾਰ
+
+# UI Manager| City tab (single city)
+ui.label.pop=ਆਬਾਦੀ: %d
+ui.label.buildings=ਇਮਾਰਤਾਂ:
+ui.label.no_buildings=ਕੋਈ ਇਮਾਰਤ ਨਹੀਂ
+ui.label.construct=ਉਸਾਰੀ:
+ui.button.factory=ਕਾਰਖਾਨਾ
+ui.button.military_hq=ਫੌਜੀ ਮੁੱਖ ਦਫ਼ਤਰ
+ui.button.depot=ਡੀਪੋ
+
+# UI Manager| City Tab (multiple cities)
+ui.label.cities_selected=%zu ਸ਼ਹਿਰ ਚੁਣੇ ਗਏ
+ui.label.total_buildings=ਕੁੱਲ ਇਮਾਰਤਾਂ:
+ui.label.no_buildings_selected=ਚੁਣੇ ਸ਼ਹਿਰਾਂ ਵਿੱਚ ਕੋਈ ਇਮਾਰਤ ਨਹੀਂ
+ui.button.create_units=ਯੂਨਿਟ ਬਣਾਓ
+ui.button.construct_buildings=ਇਮਾਰਤਾਂ ਉਸਾਰੋ
+
+# UI Manager| Building Tab
+ui.building.industrial_factory=ਉਦਯੋਗਿਕ ਕਾਰਖਾਨਾ
+ui.building.production_lines=ਉਤਪਾਦਨ ਲਾਈਨਾਂ:
+ui.building.inventory=ਸੂਚੀ:
+ui.building.no_items=ਕੋਈ ਵਸਤੂ ਨਹੀਂ
+ui.button.add_production_line=ਉਤਪਾਦਨ ਲਾਈਨ ਜੋੜੋ
+ui.building.military_hq_title=ਫੌਜੀ ਮੁੱਖ ਦਫ਼ਤਰ
+ui.button.spawn_unit=ਯੂਨਿਟ ਤਾਇਨਾਤ ਕਰੋ
+ui.building.supply_depot=ਸਪਲਾਈ ਡੀਪੋ
+ui.building.stored_equipment=ਸੰਭਾਲੇ ਉਪਕਰਣ:
+ui.label.empty=ਖਾਲੀ
+
+# UI Manager| Unit Creation Tab
+ui.label.select_unit_type=ਯੂਨਿਟ ਕਿਸਮ ਚੁਣੋ:
+ui.button.cancel=ਰੱਦ ਕਰੋ
+
+# UI Manager| Unit Tooltip
+ui.tooltip.no_equipment=ਕੋਈ ਉਪਕਰਣ ਨਹੀਂ
+ui.tooltip.morale=ਮਨੋਬਲ: %.1f
+ui.tooltip.retreat_behavior=ਪਿੱਛੇ ਹਟਣ ਦਾ ਵਤੀਰਾ: %s
+ui.retreat.normal=ਆਮ
+ui.retreat.hold_position=ਸਥਿਤੀ ਬਣਾਈ ਰੱਖੋ
+ui.retreat.fallback=ਪਿੱਛੇ ਹਟੋ
+ui.tooltip.forming=ਬਣ ਰਿਹਾ ਹੈ: %.0f%%
+
+# UI Manager| Invasion Mode
+ui.invasion.mode_active=ਹਮਲਾ ਮੋਡ ਸਰਗਰਮ
+ui.invasion.draw_line=ਯੋਜਨਾ ਲਈ ਹਮਲਾਵਰ ਲਾਈਨ ਖਿੱਚੋ
+ui.invasion.toggle_off=ਬੰਦ ਕਰਨ ਲਈ 'I' ਦਬਾਓ
+ui.button.execute=ਲਾਗੂ ਕਰੋ
+
+# UI Manager| Building Creation Tab
+ui.window.construct_building=ਇਮਾਰਤ ਉਸਾਰੋ
+ui.label.construct_building=ਇਮਾਰਤ ਉਸਾਰੋ:
+
+# UI Manager| Diplomacy tab
+ui.diplomacy.your_nation=ਤੁਹਾਡਾ ਦੇਸ਼:
+ui.diplomacy.status_ally=ਸਹਿਯੋਗੀ
+ui.diplomacy.status_war=ਜੰਗ ਵਿੱਚ
+ui.diplomacy.status_neutral=ਨਿਰਪੱਖ
+ui.diplomacy.button_ally=ਗੱਠਜੋੜ ਦਾ ਐਲਾਨ ਕਰੋ
+ui.diplomacy.button_war=ਜੰਗ ਦਾ ਐਲਾਨ ਕਰੋ
+ui.diplomacy.button_break_alliance=ਗੱਠਜੋੜ ਤੋੜੋ
+ui.diplomacy.button_peace=ਅਮਨ ਦਾ ਐਲਾਨ ਕਰੋ
+ui.diplomacy.info_tooltip=ਬੰਦ ਕਰਨ ਲਈ ਨਕਸ਼ੇ 'ਤੇ ਸੱਜਾ-ਕਲਿੱਕ ਕਰੋ
+
+# Editor| Top Bar
+editor.btn.provinces=ਸੂਬੇ
+editor.btn.cities=ਸ਼ਹਿਰ
+editor.btn.urban=ਸ਼ਹਿਰੀ
+editor.btn.roads=ਸੜਕਾਂ
+editor.btn.buildings=ਇਮਾਰਤਾਂ
+editor.btn.units=ਯੂਨਿਟ
+editor.btn.nations=ਦੇਸ਼
+editor.btn.draw_province=ਸੂਬਾ ਖਿੱਚੋ
+editor.btn.definitions=ਪਰਿਭਾਸ਼ਾਵਾਂ
+editor.btn.ref=+ ਹਵਾਲਾ
+editor.tooltip.render_settings=ਰੈਂਡਰ ਸੈਟਿੰਗਜ਼
+editor.label.modified=[ਸੋਧਿਆ ਗਿਆ]
+editor.label.no_map=ਕੋਈ ਨਕਸ਼ਾ ਲੋਡ ਨਹੀਂ — ਨਕਸ਼ਾ ਸੈੱਟ ਲੋਡ ਕਰਨ ਲਈ ਰਿਸੋਰਸ ਬ੍ਰਾਊਜ਼ਰ ਖੋਲ੍ਹੋ
+
+# Editor| Resource Browser
+editor.window.resource_browser=ਰਿਸੋਰਸ ਬ੍ਰਾਊਜ਼ਰ
+editor.tab.maps=ਨਕਸ਼ੇ
+editor.tab.units=ਯੂਨਿਟ
+editor.tab.flags=ਝੰਡੇ
+editor.btn.refresh=ਤਾਜ਼ਾ ਕਰੋ
+editor.btn.load_map=ਨਕਸ਼ਾ ਲੋਡ ਕਰੋ
+editor.btn.save_map=ਨਕਸ਼ਾ ਸੇਵ ਕਰੋ
+editor.btn.load_unit_set=ਯੂਨਿਟ ਸੈੱਟ ਲੋਡ ਕਰੋ
+editor.btn.save_flags=ਝੰਡੇ ਸੇਵ ਕਰੋ
+editor.btn.load_flag_set=ਝੰਡਾ ਸੈੱਟ ਲੋਡ ਕਰੋ
+editor.btn.duplicate=ਨਕਲ ਬਣਾਓ
+editor.btn.save_to=ਇੱਥੇ ਸੇਵ ਕਰੋ...
+editor.hint.new_set_name=ਨਵੇਂ ਸੈੱਟ ਦਾ ਨਾਮ...
+editor.btn.create=ਬਣਾਓ
+editor.btn.save_all=ਸਭ ਸੇਵ ਕਰੋ (Ctrl+S)
+editor.label.unsaved=ਅਸੇਵ ਬਦਲਾਅ!
+editor.hint.or_new_name=ਜਾਂ ਨਵਾਂ ਨਾਮ ਲਿਖੋ...
+editor.btn.save=ਸੇਵ ਕਰੋ
+
+# Editor| Duplicate / Save To Popups
+editor.popup.duplicate_title=ਸੈੱਟ ਦੀ ਨਕਲ ਬਣਾਓ
+editor.popup.duplicate_format=%s ਸੈੱਟ ਦੀ ਨਕਲ ਬਣਾਓ
+editor.popup.new_name_label=ਨਵਾਂ ਨਾਮ
+editor.btn.duplicate_confirm=ਨਕਲ ਬਣਾਓ
+editor.btn.cancel=ਰੱਦ ਕਰੋ
+editor.popup.save_to_title=ਸੈੱਟ ਵਿੱਚ ਸੇਵ ਕਰੋ
+editor.popup.save_to_format=ਮੌਜੂਦਾ ਡੇਟਾ %s ਸੈੱਟ ਵਿੱਚ ਸੇਵ ਕਰੋ:
+editor.set_type.map=ਨਕਸ਼ਾ
+editor.set_type.unit=ਯੂਨਿਟ
+editor.set_type.flag=ਝੰਡਾ
+
+# Editor| Province Panel
+editor.window.province=ਸੂਬੇ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+editor.label.province_id=ਸੂਬਾ ਆਈਡੀ: %d
+editor.input.province_name=ਸੂਬੇ ਦਾ ਨਾਮ
+editor.input.owning_nation=ਮਾਲਕ ਦੇਸ਼
+editor.input.assign_nation=ਦੇਸ਼ ਨੂੰ ਸੌਂਪੋ
+editor.label.vertices=ਸਿਖਰ: %d  (ਸੀਮਾ: %d)
+editor.label.vertex_info=ਸਿਖਰ #%d  (%.6f, %.6f)
+editor.input.vertex_pos=ਸਥਿਤੀ
+editor.label.belongs_to=ਸੂਬੇ ਨਾਲ ਸੰਬੰਧਿਤ: %d (%s)
+editor.input.reassign_id=ਸੂਬਾ ਆਈਡੀ ਵਿੱਚ ਦੁਬਾਰਾ ਸੌਂਪੋ
+editor.btn.reassign=ਸਿਖਰ ਦੁਬਾਰਾ ਸੌਂਪੋ
+editor.btn.remove_vertex=ਸਿਖਰ ਹਟਾਓ
+editor.label.interior_vertex=(ਅੰਦਰੂਨੀ ਸਿਖਰ)
+editor.label.min_verts=(ਘੱਟੋ-ਘੱਟ 3 ਸਿਖਰ)
+editor.label.province_management=ਸੂਬਾ ਪ੍ਰਬੰਧਨ
+editor.btn.stop_adding=ਜੋੜਨਾ ਬੰਦ ਕਰੋ
+editor.btn.add_vertex=ਸਿਖਰ ਜੋੜੋ
+editor.label.click_boundary=ਜੋੜਨ ਲਈ ਸੀਮਾ 'ਤੇ ਕਲਿੱਕ ਕਰੋ
+editor.btn.draw_new_province=ਨਵਾਂ ਸੂਬਾ ਖਿੱਚੋ
+editor.label.drawing_verts=ਖਿੱਚ ਰਿਹਾ ਹੈ... (%d ਸਿਖਰ)
+editor.btn.delete_province=ਇਹ ਸੂਬਾ ਮਿਟਾਓ
+
+# Editor| Nation Panel
+editor.window.nation=ਦੇਸ਼ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+editor.label.nation_hash=ਹੈਸ਼: %u  ਸੂਬੇ: %d
+editor.input.nation_name=ਦੇਸ਼ ਦਾ ਨਾਮ
+editor.label.no_flag=(ਕੋਈ ਝੰਡਾ ਨਹੀਂ)
+editor.label.flag_set=ਝੰਡਾ ਸੈੱਟ: %s
+editor.btn.change_flag=ਝੰਡਾ ਬਦਲੋ...
+editor.label.allies=ਸਹਿਯੋਗੀ
+editor.btn.add_ally=ਸਹਿਯੋਗੀ ਜੋੜੋ
+editor.label.enemies=ਦੁਸ਼ਮਣ
+editor.btn.add_enemy=ਦੁਸ਼ਮਣ ਜੋੜੋ
+editor.label.province_list_header=ਸੂਬਿਆਂ ਦੀ ਸੂਚੀ
+editor.label.state_management=ਰਾਜ ਪ੍ਰਬੰਧਨ
+editor.input.new_state_name=ਨਵੇਂ ਰਾਜ ਦਾ ਨਾਮ##newstate
+editor.btn.create_state=ਰਾਜ ਬਣਾਓ
+editor.btn.delete_state=ਇਹ ਰਾਜ ਮਿਟਾਓ
+
+# Editor| City Panel
+editor.window.city=ਸ਼ਹਿਰ ਸੰਪਾਦਕ
+editor.label.cities_count=ਸ਼ਹਿਰ: %d
+editor.btn.placing_cities=ਸ਼ਹਿਰ ਰੱਖ ਰਿਹੇ ਹਾਂ...
+editor.btn.place_city=ਸ਼ਹਿਰ ਰੱਖੋ
+editor.label.click_map_place=ਰੱਖਣ ਲਈ ਨਕਸ਼ੇ 'ਤੇ ਕਲਿੱਕ ਕਰੋ
+editor.label.city_id=ਸ਼ਹਿਰ #%d
+editor.input.city_name=ਨਾਮ
+editor.input.city_state=ਰਾਜ
+editor.input.city_province=ਸੂਬਾ
+editor.input.population=ਆਬਾਦੀ
+editor.input.lon_lat=ਲੰਬਕਾਰ / ਅਕਸ਼ਾਂਸ਼
+editor.checkbox.urban_area=ਸ਼ਹਿਰੀ ਖੇਤਰ
+editor.label.world_coords=ਸੰਸਾਰ: (%.4f, %.4f)
+editor.btn.delete_city=ਸ਼ਹਿਰ ਮਿਟਾਓ
+editor.input.filter=ਫਿਲਟਰ
+
+# Editor| Road Panel
+editor.window.road=ਸੜਕ ਸੰਪਾਦਕ
+editor.label.segments=ਭਾਗ: %d
+editor.btn.new_segment=ਨਵਾਂ ਭਾਗ
+editor.label.add_mode=ਜੋੜਨ ਦਾ ਮੋਡ
+editor.btn.stop=ਰੁਕੋ
+editor.btn.add_points=ਬਿੰਦੂ ਜੋੜੋ
+editor.label.segment_info=ਭਾਗ #%d (%d ਬਿੰਦੂ)
+editor.input.point_pos=ਬਿੰਦੂ ਸਥਿਤੀ
+editor.btn.delete_point=ਬਿੰਦੂ ਮਿਟਾਓ
+editor.btn.delete_segment=ਭਾਗ ਮਿਟਾਓ
+
+# Editor| Building Panel
+editor.window.building=ਇਮਾਰਤ ਸੰਪਾਦਕ
+editor.label.buildings_click=ਇਮਾਰਤਾਂ: %d  — ਰੱਖਣ ਲਈ ਨਕਸ਼ੇ 'ਤੇ ਕਲਿੱਕ ਕਰੋ
+editor.label.building_id=ਇਮਾਰਤ #%d
+editor.input.building_type=ਕਿਸਮ
+editor.input.owner_state=ਮਾਲਕ ਰਾਜ
+editor.input.city_assign=ਸ਼ਹਿਰ
+editor.input.building_pos=ਸਥਿਤੀ
+editor.label.drag_map=ਹਿਲਾਉਣ ਲਈ ਨਕਸ਼ੇ 'ਤੇ ਖਿੱਚੋ
+editor.label.factory_props=ਕਾਰਖਾਨੇ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+editor.input.throughput=ਆਉਟਪੁੱਟ ਸਮਰੱਥਾ
+editor.input.shipping_threshold=ਭੇਜਣ ਦੀ ਸੀਮਾ
+editor.label.production_lines_count=ਉਤਪਾਦਨ ਲਾਈਨਾਂ: %d
+editor.input.equipment=ਉਪਕਰਣ
+editor.input.capacity=ਸਮਰੱਥਾ
+editor.btn.remove=ਹਟਾਓ
+editor.btn.add_production_line=ਉਤਪਾਦਨ ਲਾਈਨ ਜੋੜੋ
+editor.label.depot_props=ਡੀਪੋ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+editor.input.max_equipment=ਵੱਧ ਤੋਂ ਵੱਧ ਉਪਕਰਣ ਸਮਰੱਥਾ
+editor.input.max_manpower=ਵੱਧ ਤੋਂ ਵੱਧ ਜਨਸ਼ਕਤੀ ਸਮਰੱਥਾ
+editor.label.military_hq=ਫੌਜੀ ਮੁੱਖ ਦਫ਼ਤਰ
+editor.label.no_additional_props=ਕੋਈ ਵਾਧੂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਨਹੀਂ
+editor.btn.delete_building=ਇਮਾਰਤ ਮਿਟਾਓ
+
+# Editor| Unit Panel
+editor.window.unit=ਯੂਨਿਟ ਸੰਪਾਦਕ
+editor.label.units_click=ਯੂਨਿਟ: %d  — ਰੱਖਣ ਲਈ ਨਕਸ਼ੇ 'ਤੇ ਕਲਿੱਕ ਕਰੋ
+editor.label.unit_id=ਯੂਨਿਟ #%d
+editor.input.given_name=ਨਾਮ
+editor.label.given_name_hint=ਯੂਨਿਟ ਦਾ ਨਾਮ (ਲਾਜ਼ਮੀ ਨਹੀਂ, ਆਪਣੇ ਆਪ ਬਣੇਗਾ)
+editor.input.definition=ਪਰਿਭਾਸ਼ਾ
+editor.checkbox.fully_formed=ਪੂਰੀ ਤਰ੍ਹਾਂ ਬਣਿਆ (ਪੂਰੀ ਤਾਕਤ ਨਾਲ ਸ਼ੁਰੂ)
+editor.btn.generate_name=ਆਪਣੇ ਆਪ ਨਾਮ
+editor.btn.delete_unit=ਯੂਨਿਟ ਮਿਟਾਓ
+
+# Editor| Status Bar
+editor.mode.provinces=ਸੂਬੇ
+editor.mode.cities=ਸ਼ਹਿਰ
+editor.mode.urban_areas=ਸ਼ਹਿਰੀ ਖੇਤਰ
+editor.mode.roads=ਸੜਕਾਂ
+editor.mode.buildings=ਇਮਾਰਤਾਂ
+editor.mode.units=ਯੂਨਿਟ
+editor.mode.nations=ਦੇਸ਼
+editor.status.modified=[ਸੋਧਿਆ ਗਿਆ]
+editor.status.dropper_active=| ਡ੍ਰੌਪਰ ਸਰਗਰਮ
+editor.status.add_vertex=| ਸਿਖਰ ਜੋੜੋ
+editor.status.no_map=ਕੋਈ ਨਕਸ਼ਾ ਲੋਡ ਨਹੀਂ
+
+# Editor| Help Overlay
+editor.window.controls=ਨਿਯੰਤਰਣ
+editor.help.navigation=ਨੈਵੀਗੇਸ਼ਨ
+editor.help.wasd=WASD / ਸੱਜਾ-ਖਿੱਚੋ: ਪੈਨ
+editor.help.scroll=ਸਕ੍ਰੋਲ: ਜ਼ੂਮ
+editor.help.selection=ਚੋਣ
+editor.help.click=ਕਲਿੱਕ: ਚੁਣੋ / ਰੱਖੋ
+editor.help.shift_click=Shift+ਕਲਿੱਕ: ਦੇਸ਼ (ਸੂਬਾ ਮੋਡ)
+editor.help.drag=ਖਿੱਚੋ: ਚੁਣੇ ਹੋਏ ਨੂੰ ਹਿਲਾਓ
+editor.help.escape=Escape: ਚੋਣ ਰੱਦ ਕਰੋ
+editor.help.ctrl_s=Ctrl+S: ਸਭ ਸੇਵ ਕਰੋ
+editor.help.pick=ਪਿੱਕ ਬਟਨ: ਡ੍ਰੌਪਰ ਸੰਦ
+
+# Editor| Dropper Overlay
+editor.dropper.click_province=ਰਾਜ ਚੁਣਨ ਲਈ ਸੂਬੇ 'ਤੇ ਕਲਿੱਕ ਕਰੋ
+
+# Editor| Dropper Button
+editor.btn.picking=ਚੁਣ ਰਿਹੇ ਹਾਂ...
+editor.btn.pick=ਚੁਣੋ
+editor.tooltip.dropper=ਮਾਲਕ ਰਾਜ ਚੁਣਨ ਲਈ ਨਕਸ਼ੇ 'ਤੇ ਸੂਬੇ 'ਤੇ ਕਲਿੱਕ ਕਰੋ
+
+# Editor| Nation/Province Combo Filters
+editor.hint.search_nations=ਦੇਸ਼ ਖੋਜੋ...
+editor.hint.search_provinces=ਸੂਬੇ ਖੋਜੋ...
+
+# ---- Editor — Province Creation Panel ----
+editor.window.draw_province=ਸੂਬਾ ਖਿੱਚੋ
+editor.label.click_map_vertices=ਸਿਖਰ ਰੱਖਣ ਲਈ ਨਕਸ਼ੇ 'ਤੇ ਕਲਿੱਕ ਕਰੋ
+editor.label.vertices_placed=ਸਿਖਰ ਰੱਖੇ ਗਏ: %d
+editor.input.create_prov_name=ਨਾਮ##crprov
+editor.input.create_prov_state=ਰਾਜ##crprov
+editor.btn.undo_last=ਆਖਰੀ ਸਿਖਰ ਵਾਪਸ ਕਰੋ
+editor.btn.finish_province=ਸੂਬਾ ਪੂਰਾ ਕਰੋ
+editor.label.or_click_first=ਜਾਂ ਆਕਾਰ ਬੰਦ ਕਰਨ ਲਈ ਪਹਿਲੇ ਸਿਖਰ (ਹਰੇ ਬਿੰਦੂ) ਦੇ ਨੇੜੇ ਕਲਿੱਕ ਕਰੋ।
+editor.label.min_3_verts=ਪੂਰਾ ਕਰਨ ਲਈ ਘੱਟੋ-ਘੱਟ 3 ਸਿਖਰ ਰੱਖੋ।
+
+# Editor| Reference Overlay Panel
+editor.window.ref_image=ਹਵਾਲਾ ਚਿੱਤਰ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ
+editor.btn.delete=ਮਿਟਾਓ
+editor.btn.unlock=ਅਨਲੌਕ ਕਰੋ
+editor.btn.lock=ਲੌਕ ਕਰੋ
+editor.btn.hide=ਲੁਕਾਓ
+editor.btn.show=ਦਿਖਾਓ
+editor.input.opacity=ਪਾਰਦਰਸ਼ਤਾ
+editor.input.position=ਸਥਿਤੀ
+editor.input.size=ਆਕਾਰ (ਚੌੜਾਈ/ਉਚਾਈ)
+editor.input.scale=ਸਕੇਲ
+editor.btn.fit_to_map=ਨਕਸ਼ੇ ਦੇ ਅਨੁਸਾਰ ਫਿੱਟ ਕਰੋ
+
+# Editor| Render Settings 
+editor.window.render_settings=ਰੈਂਡਰ ਸੈਟਿੰਗਜ਼
+editor.label.tile_textures=ਟਾਈਲ ਟੈਕਸਚਰ
+editor.checkbox.show_tile_textures=ਟਾਈਲ ਟੈਕਸਚਰ ਦਿਖਾਓ
+editor.input.tint_strength=ਰੰਗਤ ਦੀ ਤਾਕਤ
+editor.label.nation_rendering=ਦੇਸ਼ ਰੈਂਡਰਿੰਗ
+editor.checkbox.render_by_nation=ਦੇਸ਼ ਦੇ ਰੰਗ ਨਾਲ ਰੈਂਡਰ ਕਰੋ
+editor.checkbox.show_nation_flags=ਦੇਸ਼ ਦੇ ਝੰਡੇ ਦਿਖਾਓ
+editor.tooltip.nation_flags=ਦੇਸ਼ਾਂ ਦੇ ਝੰਡੇ ਉਨ੍ਹਾਂ ਦੇ ਖੇਤਰ ਦੇ ਕੇਂਦਰ ਉੱਤੇ ਰੈਂਡਰ ਕਰੋ
+editor.label.layer_opacities=ਲੇਅਰ ਪਾਰਦਰਸ਼ਤਾ
+editor.input.provinces_opacity=ਸੂਬੇ
+editor.input.roads_opacity=ਸੜਕਾਂ
+editor.input.city_dots_opacity=ਸ਼ਹਿਰ ਬਿੰਦੂ
+editor.input.urban_areas_opacity=ਸ਼ਹਿਰੀ ਖੇਤਰ
+editor.input.buildings_opacity=ਇਮਾਰਤਾਂ
+editor.input.units_opacity=ਯੂਨਿਟ
+editor.btn.reset_all=ਸਭ ਰੀਸੈੱਟ ਕਰੋ
+
+# Editor| Urban Area Panel
+editor.window.urban=ਸ਼ਹਿਰੀ ਖੇਤਰ ਸੰਪਾਦਕ
+editor.label.urban_count=ਸ਼ਹਿਰੀ ਖੇਤਰ: %d
+editor.btn.draw_urban=ਸ਼ਹਿਰੀ ਖੇਤਰ ਖਿੱਚੋ
+editor.label.drawing_urban=ਖਿੱਚ ਰਿਹਾ ਹੈ... (%d ਸਿਖਰ)
+editor.label.urban_id=ਸ਼ਹਿਰੀ ਖੇਤਰ #%d  (%d ਸੀਮਾ ਸਿਖਰ)
+editor.input.urban_name=ਨਾਮ
+editor.input.urban_state=ਮਾਲਕ ਰਾਜ
+editor.input.urban_province=ਸੂਬਾ
+editor.input.urban_pop=ਆਬਾਦੀ
+editor.input.filter_urban=ਫਿਲਟਰ##urban
+
+# Editor| Urban Area Creation Panel
+editor.window.draw_urban=ਸ਼ਹਿਰੀ ਖੇਤਰ ਖਿੱਚੋ
+editor.input.create_urban_name=ਨਾਮ##crurban
+editor.input.create_urban_state=ਰਾਜ##crurban
+editor.btn.finish_urban=ਸ਼ਹਿਰੀ ਖੇਤਰ ਪੂਰਾ ਕਰੋ
+
+# Editor| Nation Editor Tab
+editor.window.nation_editor=ਦੇਸ਼ ਸੰਪਾਦਕ
+editor.label.nations_count=ਦੇਸ਼: %d
+editor.input.filter_nations=ਫਿਲਟਰ##nations
+editor.label.selected_nation=ਚੁਣਿਆ: %s
+editor.input.nation_name_ne=ਦੇਸ਼ ਦਾ ਨਾਮ##ne
+editor.label.provinces_ne=ਸੂਬੇ##ne
+
+# Editor| Definition Editor 
+editor.window.definition_editor=ਪਰਿਭਾਸ਼ਾ ਸੰਪਾਦਕ
+editor.btn.equipment_tab=ਉਪਕਰਣ
+editor.btn.units_tab=ਯੂਨਿਟ
+editor.btn.save_all_def=ਸਭ ਸੇਵ ਕਰੋ
+editor.btn.close=ਬੰਦ ਕਰੋ
+editor.label.background_icons=ਪਿਛੋਕੜ ਆਈਕਨ

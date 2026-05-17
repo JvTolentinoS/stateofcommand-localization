@@ -1,0 +1,371 @@
+# -------------------------------------
+# State of Command: Marathi locale
+# Format: key=value
+# Lines starting with # are comments
+# -------------------------------------
+
+# Main Menu
+menu.button.start_game=खेळ सुरू करा
+menu.button.profile=प्रोफाइल
+menu.button.settings=सेटिंग्ज
+menu.button.quit=बाहेर पडा
+menu.intro.presented_by=तुमच्यासाठी सादर केले
+menu.intro.layth_issam_elzaim=ल ै थ  इ स ा म  ए ल  झ ै म
+# You can transliterate or get the equivalent of my name in your language, 
+#make sure to do a space between each character that is next to each other, 
+#and double space where there would normally be 1 space.
+
+# Settings| NEW STUFF AND THAT'S IT [No other updates past my name and the settings for now]
+ui.settings.title=सेटिंग्ज
+ui.settings.tab.graphics=ग्राफिक्स
+ui.settings.tab.language=भाषा
+ui.settings.tab.game_visuals=गेम दृश्ये
+
+ui.settings.resolution=रिझोल्यूशन
+ui.settings.window_mode=विंडो मोड
+
+ui.settings.language=भाषा
+
+# UI Manager| Flag Bar
+ui.button.diplomacy=मुत्सद्देगिरी
+ui.button.economy=अर्थव्यवस्था
+ui.button.unset=अनसेट
+ui.button.military=सैन्य
+
+# UI Manager| Country Select
+ui.button.play_as=म्हणून खेळा
+
+# UI Manager| Settings
+ui.window.settings=सेटिंग्ज
+ui.settings.secondary_icons=दुय्यम युनिट चिन्हे वापरा
+ui.settings.flag_zoom_out=झूम आउटवर ध्वज दाखवा (युनिट्स)
+ui.settings.nation_overlay=राष्ट्र ओव्हरले (N)
+ui.settings.always_flag=युनिट्सवर नेहमी ध्वज दाखवा (F)
+ui.settings.unit_size=युनिट आकार
+
+# UI Manager| City tab (single city)
+ui.label.pop=लोकसंख्या: %d
+ui.label.buildings=इमारती:
+ui.label.no_buildings=इमारती नाहीत
+ui.label.construct=बांधणी:
+ui.button.factory=कारखाना
+ui.button.military_hq=सैनिकी मुख्यालय
+ui.button.depot=डेपो
+
+# UI Manager| City Tab (multiple cities)
+ui.label.cities_selected=%zu शहरे निवडली
+ui.label.total_buildings=एकूण इमारती:
+ui.label.no_buildings_selected=निवडलेल्या शहरांमध्ये इमारती नाहीत
+ui.button.create_units=युनिट्स तयार करा
+ui.button.construct_buildings=इमारती बांधा
+
+# UI Manager| Building Tab
+ui.building.industrial_factory=औद्योगिक कारखाना
+ui.building.production_lines=उत्पादन ओळी:
+ui.building.inventory=यादी:
+ui.building.no_items=वस्तू नाहीत
+ui.button.add_production_line=उत्पादन ओळ जोडा
+ui.building.military_hq_title=सैनिकी मुख्यालय
+ui.button.spawn_unit=युनिट तैनात करा
+ui.building.supply_depot=पुरवठा डेपो
+ui.building.stored_equipment=साठवलेली उपकरणे:
+ui.label.empty=रिकामे
+
+# UI Manager| Unit Creation Tab
+ui.label.select_unit_type=युनिट प्रकार निवडा:
+ui.button.cancel=रद्द करा
+
+# UI Manager| Unit Tooltip
+ui.tooltip.no_equipment=उपकरणे नाहीत
+ui.tooltip.morale=मनोबल: %.1f
+ui.tooltip.retreat_behavior=माघार वर्तन: %s
+ui.retreat.normal=सामान्य
+ui.retreat.hold_position=स्थान राखा
+ui.retreat.fallback=मागे हटा
+ui.tooltip.forming=तयार होत आहे: %.0f%%
+
+# UI Manager| Invasion Mode
+ui.invasion.mode_active=आक्रमण मोड सक्रिय
+ui.invasion.draw_line=आक्रमण रेषा आखा
+ui.invasion.toggle_off=बंद करण्यासाठी 'I' दाबा
+ui.button.execute=अमलात आणा
+
+# UI Manager| Building Creation Tab
+ui.window.construct_building=इमारत बांधा
+ui.label.construct_building=इमारत बांधा:
+
+# UI Manager| Diplomacy tab
+ui.diplomacy.your_nation=तुमचे राष्ट्र:
+ui.diplomacy.status_ally=मित्र
+ui.diplomacy.status_war=युद्धात
+ui.diplomacy.status_neutral=तटस्थ
+ui.diplomacy.button_ally=युती जाहीर करा
+ui.diplomacy.button_war=युद्ध जाहीर करा
+ui.diplomacy.button_break_alliance=युती तोडा
+ui.diplomacy.button_peace=शांतता जाहीर करा
+ui.diplomacy.info_tooltip=बंद करण्यासाठी नकाशावर उजवे-क्लिक करा
+
+# Editor| Top Bar
+editor.btn.provinces=प्रांत
+editor.btn.cities=शहरे
+editor.btn.urban=नागरी
+editor.btn.roads=रस्ते
+editor.btn.buildings=इमारती
+editor.btn.units=युनिट्स
+editor.btn.nations=राष्ट्रे
+editor.btn.draw_province=प्रांत आखा
+editor.btn.definitions=व्याख्या
+editor.btn.ref=+ संदर्भ
+editor.tooltip.render_settings=रेंडर सेटिंग्ज
+editor.label.modified=[बदललेले]
+editor.label.no_map=नकाशा लोड नाही — नकाशा संच लोड करण्यासाठी रिसोर्स ब्राउझर उघडा
+
+# Editor| Resource Browser
+editor.window.resource_browser=रिसोर्स ब्राउझर
+editor.tab.maps=नकाशे
+editor.tab.units=युनिट्स
+editor.tab.flags=ध्वज
+editor.btn.refresh=रीफ्रेश करा
+editor.btn.load_map=नकाशा लोड करा
+editor.btn.save_map=नकाशा जतन करा
+editor.btn.load_unit_set=युनिट संच लोड करा
+editor.btn.save_flags=ध्वज जतन करा
+editor.btn.load_flag_set=ध्वज संच लोड करा
+editor.btn.duplicate=प्रत तयार करा
+editor.btn.save_to=येथे जतन करा...
+editor.hint.new_set_name=नवीन संचाचे नाव...
+editor.btn.create=तयार करा
+editor.btn.save_all=सर्व जतन करा (Ctrl+S)
+editor.label.unsaved=न जतन केलेले बदल!
+editor.hint.or_new_name=किंवा नवीन नाव टाइप करा...
+editor.btn.save=जतन करा
+
+# Editor| Duplicate / Save To Popups
+editor.popup.duplicate_title=संचाची प्रत तयार करा
+editor.popup.duplicate_format=%s संचाची प्रत तयार करा
+editor.popup.new_name_label=नवीन नाव
+editor.btn.duplicate_confirm=प्रत तयार करा
+editor.btn.cancel=रद्द करा
+editor.popup.save_to_title=संचात जतन करा
+editor.popup.save_to_format=सध्याचा डेटा %s संचात जतन करा:
+editor.set_type.map=नकाशा
+editor.set_type.unit=युनिट
+editor.set_type.flag=ध्वज
+
+# Editor| Province Panel
+editor.window.province=प्रांताचे गुणधर्म
+editor.label.province_id=प्रांत आयडी: %d
+editor.input.province_name=प्रांताचे नाव
+editor.input.owning_nation=मालक राष्ट्र
+editor.input.assign_nation=राष्ट्राला नियुक्त करा
+editor.label.vertices=शिरोबिंदू: %d  (सीमा: %d)
+editor.label.vertex_info=शिरोबिंदू #%d  (%.6f, %.6f)
+editor.input.vertex_pos=स्थान
+editor.label.belongs_to=प्रांताशी संबंधित: %d (%s)
+editor.input.reassign_id=प्रांत आयडीला पुन्हा नियुक्त करा
+editor.btn.reassign=शिरोबिंदू पुन्हा नियुक्त करा
+editor.btn.remove_vertex=शिरोबिंदू काढा
+editor.label.interior_vertex=(अंतर्गत शिरोबिंदू)
+editor.label.min_verts=(किमान ३ शिरोबिंदू)
+editor.label.province_management=प्रांत व्यवस्थापन
+editor.btn.stop_adding=जोडणे थांबवा
+editor.btn.add_vertex=शिरोबिंदू जोडा
+editor.label.click_boundary=घालण्यासाठी सीमेवर क्लिक करा
+editor.btn.draw_new_province=नवीन प्रांत आखा
+editor.label.drawing_verts=आखत आहे... (%d शिरोबिंदू)
+editor.btn.delete_province=हा प्रांत हटवा
+
+# Editor| Nation Panel
+editor.window.nation=राष्ट्राचे गुणधर्म
+editor.label.nation_hash=हॅश: %u  प्रांत: %d
+editor.input.nation_name=राष्ट्राचे नाव
+editor.label.no_flag=(ध्वज नाही)
+editor.label.flag_set=ध्वज संच: %s
+editor.btn.change_flag=ध्वज बदला...
+editor.label.allies=मित्रराष्ट्रे
+editor.btn.add_ally=मित्र जोडा
+editor.label.enemies=शत्रू
+editor.btn.add_enemy=शत्रू जोडा
+editor.label.province_list_header=प्रांत यादी
+editor.label.state_management=राज्य व्यवस्थापन
+editor.input.new_state_name=नवीन राज्याचे नाव##newstate
+editor.btn.create_state=राज्य तयार करा
+editor.btn.delete_state=हे राज्य हटवा
+
+# Editor| City Panel
+editor.window.city=शहर संपादक
+editor.label.cities_count=शहरे: %d
+editor.btn.placing_cities=शहरे ठेवत आहे...
+editor.btn.place_city=शहर ठेवा
+editor.label.click_map_place=ठेवण्यासाठी नकाशावर क्लिक करा
+editor.label.city_id=शहर #%d
+editor.input.city_name=नाव
+editor.input.city_state=राज्य
+editor.input.city_province=प्रांत
+editor.input.population=लोकसंख्या
+editor.input.lon_lat=रेखांश / अक्षांश
+editor.checkbox.urban_area=नागरी क्षेत्र
+editor.label.world_coords=जग: (%.4f, %.4f)
+editor.btn.delete_city=शहर हटवा
+editor.input.filter=फिल्टर
+
+# Editor| Road Panel
+editor.window.road=रस्ता संपादक
+editor.label.segments=विभाग: %d
+editor.btn.new_segment=नवीन विभाग
+editor.label.add_mode=जोडण्याचा मोड
+editor.btn.stop=थांबा
+editor.btn.add_points=बिंदू जोडा
+editor.label.segment_info=विभाग #%d (%d बिंदू)
+editor.input.point_pos=बिंदू स्थान
+editor.btn.delete_point=बिंदू हटवा
+editor.btn.delete_segment=विभाग हटवा
+
+# Editor| Building Panel
+editor.window.building=इमारत संपादक
+editor.label.buildings_click=इमारती: %d  — ठेवण्यासाठी नकाशावर क्लिक करा
+editor.label.building_id=इमारत #%d
+editor.input.building_type=प्रकार
+editor.input.owner_state=मालक राज्य
+editor.input.city_assign=शहर
+editor.input.building_pos=स्थान
+editor.label.drag_map=हलवण्यासाठी नकाशावर ड्रॅग करा
+editor.label.factory_props=कारखान्याचे गुणधर्म
+editor.input.throughput=उत्पादन क्षमता
+editor.input.shipping_threshold=पाठवणीची मर्यादा
+editor.label.production_lines_count=उत्पादन ओळी: %d
+editor.input.equipment=उपकरणे
+editor.input.capacity=क्षमता
+editor.btn.remove=काढा
+editor.btn.add_production_line=उत्पादन ओळ जोडा
+editor.label.depot_props=डेपोचे गुणधर्म
+editor.input.max_equipment=कमाल उपकरण क्षमता
+editor.input.max_manpower=कमाल मनुष्यबळ क्षमता
+editor.label.military_hq=सैनिकी मुख्यालय
+editor.label.no_additional_props=अतिरिक्त गुणधर्म नाहीत
+editor.btn.delete_building=इमारत हटवा
+
+# Editor| Unit Panel
+editor.window.unit=युनिट संपादक
+editor.label.units_click=युनिट्स: %d  — ठेवण्यासाठी नकाशावर क्लिक करा
+editor.label.unit_id=युनिट #%d
+editor.input.given_name=नाव
+editor.label.given_name_hint=युनिटचे नाव (आवश्यक नाही, आपोआप तयार होईल)
+editor.input.definition=व्याख्या
+editor.checkbox.fully_formed=पूर्णपणे तयार (पूर्ण शक्तीने सुरू)
+editor.btn.generate_name=आपोआप नाव
+editor.btn.delete_unit=युनिट हटवा
+
+# Editor| Status Bar
+editor.mode.provinces=प्रांत
+editor.mode.cities=शहरे
+editor.mode.urban_areas=नागरी क्षेत्रे
+editor.mode.roads=रस्ते
+editor.mode.buildings=इमारती
+editor.mode.units=युनिट्स
+editor.mode.nations=राष्ट्रे
+editor.status.modified=[बदललेले]
+editor.status.dropper_active=| ड्रॉपर सक्रिय
+editor.status.add_vertex=| शिरोबिंदू जोडा
+editor.status.no_map=नकाशा लोड नाही
+
+# Editor| Help Overlay
+editor.window.controls=नियंत्रणे
+editor.help.navigation=नेव्हिगेशन
+editor.help.wasd=WASD / उजवे-ड्रॅग: पॅन
+editor.help.scroll=स्क्रोल: झूम
+editor.help.selection=निवड
+editor.help.click=क्लिक: निवडा / ठेवा
+editor.help.shift_click=Shift+क्लिक: राष्ट्र (प्रांत मोड)
+editor.help.drag=ड्रॅग: निवडलेले हलवा
+editor.help.escape=Escape: निवड रद्द करा
+editor.help.ctrl_s=Ctrl+S: सर्व जतन करा
+editor.help.pick=पिक बटण: ड्रॉपर साधन
+
+# Editor| Dropper Overlay
+editor.dropper.click_province=राज्य निवडण्यासाठी प्रांतावर क्लिक करा
+
+# Editor| Dropper Button
+editor.btn.picking=निवडत आहे...
+editor.btn.pick=निवडा
+editor.tooltip.dropper=मालक राज्य निवडण्यासाठी नकाशावर प्रांतावर क्लिक करा
+
+# Editor| Nation/Province Combo Filters
+editor.hint.search_nations=राष्ट्रे शोधा...
+editor.hint.search_provinces=प्रांत शोधा...
+
+# ---- Editor — Province Creation Panel ----
+editor.window.draw_province=प्रांत आखा
+editor.label.click_map_vertices=शिरोबिंदू ठेवण्यासाठी नकाशावर क्लिक करा
+editor.label.vertices_placed=शिरोबिंदू ठेवले: %d
+editor.input.create_prov_name=नाव##crprov
+editor.input.create_prov_state=राज्य##crprov
+editor.btn.undo_last=शेवटचा शिरोबिंदू पूर्वत करा
+editor.btn.finish_province=प्रांत पूर्ण करा
+editor.label.or_click_first=किंवा आकार बंद करण्यासाठी पहिल्या शिरोबिंदूजवळ (हिरवा बिंदू) क्लिक करा.
+editor.label.min_3_verts=पूर्ण करण्यासाठी किमान ३ शिरोबिंदू ठेवा.
+
+# Editor| Reference Overlay Panel
+editor.window.ref_image=संदर्भ प्रतिमा गुणधर्म
+editor.btn.delete=हटवा
+editor.btn.unlock=अनलॉक करा
+editor.btn.lock=लॉक करा
+editor.btn.hide=लपवा
+editor.btn.show=दाखवा
+editor.input.opacity=पारदर्शकता
+editor.input.position=स्थान
+editor.input.size=आकार (रु/उं)
+editor.input.scale=स्केल
+editor.btn.fit_to_map=नकाशाशी जुळवा
+
+# Editor| Render Settings 
+editor.window.render_settings=रेंडर सेटिंग्ज
+editor.label.tile_textures=टाइल टेक्सचर
+editor.checkbox.show_tile_textures=टाइल टेक्सचर दाखवा
+editor.input.tint_strength=रंगाची तीव्रता
+editor.label.nation_rendering=राष्ट्र रेंडरिंग
+editor.checkbox.render_by_nation=राष्ट्राच्या रंगाने रेंडर करा
+editor.checkbox.show_nation_flags=राष्ट्राचे ध्वज दाखवा
+editor.tooltip.nation_flags=राष्ट्रांचे ध्वज त्यांच्या प्रदेशाच्या मध्यावर रेंडर करा
+editor.label.layer_opacities=लेयर पारदर्शकता
+editor.input.provinces_opacity=प्रांत
+editor.input.roads_opacity=रस्ते
+editor.input.city_dots_opacity=शहर बिंदू
+editor.input.urban_areas_opacity=नागरी क्षेत्रे
+editor.input.buildings_opacity=इमारती
+editor.input.units_opacity=युनिट्स
+editor.btn.reset_all=सर्व रीसेट करा
+
+# Editor| Urban Area Panel
+editor.window.urban=नागरी क्षेत्र संपादक
+editor.label.urban_count=नागरी क्षेत्रे: %d
+editor.btn.draw_urban=नागरी क्षेत्र आखा
+editor.label.drawing_urban=आखत आहे... (%d शिरोबिंदू)
+editor.label.urban_id=नागरी क्षेत्र #%d  (%d सीमा शिरोबिंदू)
+editor.input.urban_name=नाव
+editor.input.urban_state=मालक राज्य
+editor.input.urban_province=प्रांत
+editor.input.urban_pop=लोकसंख्या
+editor.input.filter_urban=फिल्टर##urban
+
+# Editor| Urban Area Creation Panel
+editor.window.draw_urban=नागरी क्षेत्र आखा
+editor.input.create_urban_name=नाव##crurban
+editor.input.create_urban_state=राज्य##crurban
+editor.btn.finish_urban=नागरी क्षेत्र पूर्ण करा
+
+# Editor| Nation Editor Tab
+editor.window.nation_editor=राष्ट्र संपादक
+editor.label.nations_count=राष्ट्रे: %d
+editor.input.filter_nations=फिल्टर##nations
+editor.label.selected_nation=निवडलेले: %s
+editor.input.nation_name_ne=राष्ट्राचे नाव##ne
+editor.label.provinces_ne=प्रांत##ne
+
+# Editor| Definition Editor 
+editor.window.definition_editor=व्याख्या संपादक
+editor.btn.equipment_tab=उपकरणे
+editor.btn.units_tab=युनिट्स
+editor.btn.save_all_def=सर्व जतन करा
+editor.btn.close=बंद करा
+editor.label.background_icons=पार्श्वभूमी चिन्हे
