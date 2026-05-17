@@ -22,7 +22,7 @@ To make a new file:
 2. Open the `locales` folder
 3. Click **Add file** near the top-right and select **Create new file**
 4. Name the file using your language code (e.g., `en.txt`)
-5. Paste the original text and add your translations
+5. Paste the original text from [en.txt](https://github.com/YoungLionIV/stateofcommand-localization/blob/main/locales/en.txt) and add your translations
 6. Click **Commit changes**
 7. Open a Pull Request
 
