@@ -369,4 +369,3 @@ editor.btn.units_tab=Unità
 editor.btn.save_all_def=Salva tutto
 editor.btn.close=Chiudi
 editor.label.background_icons=Icone di sfondo
-```
