@@ -161,7 +161,7 @@ editor.btn.stop_adding=Lopeta Lisääminen
 editor.btn.add_vertex=lisää Kärkipiste
 editor.label.click_boundary=Napsauta Rajaa lisätäksesi
 editor.btn.draw_new_province=Piirrä Uusi Maakunta
-editor.label.drawing_verts=Piirretään... (%d pistettä)
+editor.label.drawing_verts=Piirtää... (%d pistettä)
 editor.btn.delete_province=Poista Tämä Maakunta
 
 # Editor| Nation Panel
@@ -176,20 +176,20 @@ editor.btn.add_ally=Lisää Liittolainen
 editor.label.enemies=Viholliset
 editor.btn.add_enemy=Lisää Vihollinen
 editor.label.province_list_header=Maakuntalista
-editor.label.state_management=Alueenhallinta
-editor.input.new_state_name=Luo Alue Nimi##uusialue
-editor.btn.create_state=Luo Alue
-editor.btn.delete_state=Poista Tämä Alue
+editor.label.state_management=Valtionhallinta
+editor.input.new_state_name=Luo Valtio Nimi##uusivaltio
+editor.btn.create_state=Luo Valtio
+editor.btn.delete_state=Poista Tämä Valtio
 
 # Editor| City Panel
 editor.window.city=Kaupunkieditori
 editor.label.cities_count=Kaupunkeja: %d
-editor.btn.placing_cities=Asetetaan Kaupunkeja...
+editor.btn.placing_cities=Asettaa Kaupunkeja...
 editor.btn.place_city=Aseta Kaupunki
 editor.label.click_map_place=Napsauta Karttaa Asettaaksesi
 editor.label.city_id=Kaupunki #%d
 editor.input.city_name=Nimi
-editor.input.city_state=Alue
+editor.input.city_state=Valtio
 editor.input.city_province=Maakunta
 editor.input.population=Väestö
 editor.input.lon_lat=Pit / Lev
@@ -215,7 +215,7 @@ editor.window.building=Rakennuseditori
 editor.label.buildings_click=Rakennukset: %d  — Napsauta Karttaa Asettaaksesi
 editor.label.building_id=Rakennus #%d
 editor.input.building_type=Tyyppi
-editor.input.owner_state=Omistava Alue
+editor.input.owner_state=Omistava Valtio
 editor.input.city_assign=Kaupunki
 editor.input.building_pos=Sij.
 editor.label.drag_map=Vieritä Kartalla Liikuttaaksesi
@@ -254,7 +254,7 @@ editor.mode.buildings=Rakennukset
 editor.mode.units=Yksiköt
 editor.mode.nations=Valtiot
 editor.status.modified=[MUOKATTU]
-editor.status.dropper_active=| DROPPER ACTIVE
+editor.status.dropper_active=| PUDOTIN PÄÄLLÄ
 editor.status.add_vertex=| LISÄÄ KÄRKIPISTE
 editor.status.no_map=Ei karttaa ladattuna
 
@@ -269,92 +269,92 @@ editor.help.shift_click=Vaihto+Napsautus: Valtio (Maakuntatila)
 editor.help.drag=Vieritys: Liikuta Valittua
 editor.help.escape=Escape: Poista valinta
 editor.help.ctrl_s=Ctrl+S: Tallenna kaikki
-editor.help.pick=Poimintanappi: asettamistyökalu
+editor.help.pick=Valintanappi: asettamistyökalu
 
 # Editor| Dropper Overlay
 editor.dropper.click_province=Napsauta maakuntaa valitaksesi valtio
 
 # Editor| Dropper Button
-editor.btn.picking=Picking...
-editor.btn.pick=Pick
-editor.tooltip.dropper=Click a province on the map to pick its owner state
+editor.btn.picking=Valitsee...
+editor.btn.pick=Valitse
+editor.tooltip.dropper=Napsauta Maakuntaa Valitaksesi Sen Omistava Valtio
 
 # Editor| Nation/Province Combo Filters
-editor.hint.search_nations=Search nations...
-editor.hint.search_provinces=Search provinces...
+editor.hint.search_nations=Hae valtioita...
+editor.hint.search_provinces=Hae maakuntia...
 
 # ---- Editor — Province Creation Panel ----
-editor.window.draw_province=Draw Province
-editor.label.click_map_vertices=Click the map to place vertices
-editor.label.vertices_placed=Vertices placed: %d
-editor.input.create_prov_name=Name##crprov
-editor.input.create_prov_state=State##crprov
-editor.btn.undo_last=Undo Last Vertex
-editor.btn.finish_province=Finish Province
-editor.label.or_click_first=Or click near the first vertex (green dot) to close the shape.
-editor.label.min_3_verts=Place at least 3 vertices to finish.
+editor.window.draw_province=Piirrä maakunta
+editor.label.click_map_vertices=Napsauta karttaa asettaaksesi kärkipisteitä
+editor.label.vertices_placed=Kärkipisteitä asetettu: %d
+editor.input.create_prov_name=Nimi##crprov
+editor.input.create_prov_state=Valtio##crprov
+editor.btn.undo_last=Kumoa Viimeinen Kärkipiste
+editor.btn.finish_province=Viimeistele Maakunta
+editor.label.or_click_first=Tai napsauta lähellä ensimmäistä kärkipistettä (vihreää pistettä) sulkeaksesi muodon.
+editor.label.min_3_verts=Aseta vähintään 3 kärkipistettä viimeistelläksesi.
 
 # Editor| Reference Overlay Panel
-editor.window.ref_image=Reference Image Properties
-editor.btn.delete=Delete
-editor.btn.unlock=Unlock
-editor.btn.lock=Lock
-editor.btn.hide=Hide
-editor.btn.show=Show
-editor.input.opacity=Opacity
-editor.input.position=Position
-editor.input.size=Size (W/H)
-editor.input.scale=Scale
-editor.btn.fit_to_map=Fit to Map
+editor.window.ref_image=Viitekuvan Ominaisuudet
+editor.btn.delete=Poista
+editor.btn.unlock=Avaa lukitus
+editor.btn.lock=Lukitse
+editor.btn.hide=Piilota
+editor.btn.show=Näytä
+editor.input.opacity=Peittävyys
+editor.input.position=Sijainti
+editor.input.size=Koko (L/K)
+editor.input.scale=Mittakaava
+editor.btn.fit_to_map=Sovita Karttaan
 
 # Editor| Render Settings 
-editor.window.render_settings=Render Settings
-editor.label.tile_textures=Tile Textures
-editor.checkbox.show_tile_textures=Show Tile Textures
-editor.input.tint_strength=Tint Strength
-editor.label.nation_rendering=Nation Rendering
-editor.checkbox.render_by_nation=Render by Nation Color
-editor.checkbox.show_nation_flags=Show Nation Flags
-editor.tooltip.nation_flags=Render nation flags over their territory center
-editor.label.layer_opacities=Layer Opacities
-editor.input.provinces_opacity=Provinces
-editor.input.roads_opacity=Roads
-editor.input.city_dots_opacity=City Dots
-editor.input.urban_areas_opacity=Urban Areas
-editor.input.buildings_opacity=Buildings
-editor.input.units_opacity=Units
-editor.btn.reset_all=Reset All
+editor.window.render_settings=Renderöintiasetukset
+editor.label.tile_textures=Ruututekstuurit
+editor.checkbox.show_tile_textures=Näytä Ruututekstuurit
+editor.input.tint_strength=Sävyn Voimakkuus
+editor.label.nation_rendering=Valtion Renderöinti
+editor.checkbox.render_by_nation=Renderöi Valtion Värin Mukaan
+editor.checkbox.show_nation_flags=Näytä Valtioiden Liput
+editor.tooltip.nation_flags=Renderöi Valtioiden Liput Alueidensa Keskelle
+editor.label.layer_opacities=Kerroksen Peittävyydet
+editor.input.provinces_opacity=Maakunnat
+editor.input.roads_opacity=Tiet
+editor.input.city_dots_opacity=Kaupunkipisteet
+editor.input.urban_areas_opacity=Kaupunkialueet
+editor.input.buildings_opacity=Rakennukset
+editor.input.units_opacity=Yksiköt
+editor.btn.reset_all=Nollaa Kaikki
 
 # Editor| Urban Area Panel
-editor.window.urban=Urban Area Editor
-editor.label.urban_count=Urban Areas: %d
-editor.btn.draw_urban=Draw Urban Area
-editor.label.drawing_urban=Drawing... (%d verts)
-editor.label.urban_id=Urban Area #%d  (%d boundary verts)
-editor.input.urban_name=Name
-editor.input.urban_state=Owner State
-editor.input.urban_province=Province
-editor.input.urban_pop=Population
-editor.input.filter_urban=Filter##urban
+editor.window.urban=Kaupunkialue-editori
+editor.label.urban_count=Kaupunkialueet: %d
+editor.btn.draw_urban=Piirrä Kaupunkialue
+editor.label.drawing_urban=Piirtää... (%d pistettä)
+editor.label.urban_id=Kaupunkialue #%d  (%d rajapistettä)
+editor.input.urban_name=Nimi
+editor.input.urban_state=Omistava Valtio
+editor.input.urban_province=Maakunta
+editor.input.urban_pop=Väestö
+editor.input.filter_urban=Suodata##kaupunkialue
 
 # Editor| Urban Area Creation Panel
-editor.window.draw_urban=Draw Urban Area
-editor.input.create_urban_name=Name##crurban
-editor.input.create_urban_state=State##crurban
-editor.btn.finish_urban=Finish Urban Area
+editor.window.draw_urban=Piirrä Kaupunkialue
+editor.input.create_urban_name=Nimi##crkaupunkialue
+editor.input.create_urban_state=Valtio##crkaupunkialue
+editor.btn.finish_urban=Viimeistele Kaupunkialue
 
 # Editor| Nation Editor Tab
-editor.window.nation_editor=Nation Editor
-editor.label.nations_count=Nations: %d
-editor.input.filter_nations=Filter##nations
-editor.label.selected_nation=Selected: %s
-editor.input.nation_name_ne=Nation Name##ne
-editor.label.provinces_ne=Provinces##ne
+editor.window.nation_editor=Valtioeditori
+editor.label.nations_count=Valtiot: %d
+editor.input.filter_nations=Suodata##valtiot
+editor.label.selected_nation=Valittuna: %s
+editor.input.nation_name_ne=Valtion Nimi##ne
+editor.label.provinces_ne=Maakunnat##ne
 
 # Editor| Definition Editor 
-editor.window.definition_editor=Definition Editor
-editor.btn.equipment_tab=Equipment
-editor.btn.units_tab=Units
-editor.btn.save_all_def=Save All
-editor.btn.close=Close
-editor.label.background_icons=Background Icons
+editor.window.definition_editor=Määritelmäeditori
+editor.btn.equipment_tab=Kalusto
+editor.btn.units_tab=Yksiköt
+editor.btn.save_all_def=Tallenna Kaikki
+editor.btn.close=Sulje
+editor.label.background_icons=Taustakuvakkeet
