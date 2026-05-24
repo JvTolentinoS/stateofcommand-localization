@@ -53,7 +53,7 @@ ui.button.military_hq=Військовий штаб
 ui.button.depot=Депо
 
 # UI Manager| City Tab (multiple cities)
-ui.label.cities_selected=%обраних міст
+ui.label.cities_selected=%zu обраних міст
 ui.label.total_buildings=Всього споруд:
 ui.label.no_buildings_selected=Нема споруд в обраних містах
 ui.button.create_units=Створити підрозділи
