@@ -7,7 +7,7 @@
 #Romanian translation done by: Mihnea
 
 # Main Menu
-menu.button.start_game=începe joc
+menu.button.start_game=Începe joc
 menu.button.profile=Profil
 menu.button.settings=Setări
 menu.button.quit=Ieși
