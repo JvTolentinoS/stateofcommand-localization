@@ -20,7 +20,8 @@ menu.credits.line2=(Sole Developer & Creator)
 menu.credits.line3=
 #Then I would like for all contributors to put their credit appropriately, for example for translation (which is pretty much everyone except 1):
 menu.credits.line4=English locale by Layth
-menu.credits.line5=Greek locale by DLRGR202O
+menu.credits.line5=
+menu.credits.line6=Greek locale by DLRGR202O
 #now add all of yours here and all translators try to keep your locales up to date with the credits as well, you can even put the names in the respective language.
 
 menu.credits.click_to_return=Click anywhere to return
