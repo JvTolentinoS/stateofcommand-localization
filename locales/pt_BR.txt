@@ -26,7 +26,7 @@ menu.credits.line4=Tradução hebraica por adar albajari (doctor4rats)
 menu.credits.line5=
 menu.credits.line6=Tradução grega por DLRGR202O
 menu.credits.line7=
-menu.credits.line8=Tradução portuguesa por JvTolentinoS
+menu.credits.line8=Tradução portuguesa por JvTolentinoS e Amilton Neves (miltinhosouza-maker)
 
 menu.credits.click_to_return=Clique para voltar
 
