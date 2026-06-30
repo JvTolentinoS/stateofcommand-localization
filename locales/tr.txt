@@ -9,13 +9,23 @@ menu.button.start_game=Oyuna Başla
 menu.button.profile=Profil
 menu.button.settings=Ayarlar
 menu.button.quit=Oyundan çık
+menu.button.credits=Emeği Geçenler
 menu.intro.presented_by=Sunar
 menu.intro.layth_issam_elzaim=L a y t h  I s s a m  E l  Z a i m
-# You can transliterate or get the equivalent of my name in your language, 
-#make sure to do a space between each character that is next to each other, 
-#and double space where there would normally be 1 space.
 
-# Settings| NEW STUFF AND THAT'S IT [No other updates past my name and the settings for now]
+# Credits Screen
+menu.credits.line1=Layth Issam El Zaim Tarafından Geliştirilen Bir Oyun
+menu.credits.line2=(Tek başına geliştirip yapan kişi)
+# to make space between credits do the key then leave value blank like so
+menu.credits.line3=
+#Then I would like for all contributors to put their credit appropriately, for example for translation (which is pretty much everyone except 1):
+menu.credits.line4=English locale by Layth
+menu.credits.line5=
+#now add all of yours here and all translators try to keep your locales up to date with the credits as well, you can even put the names in the respective language.
+
+menu.credits.click_to_return=Geri dönmek için herhangi bir yere tıkla
+
+# Settings
 ui.settings.title=Ayarlar
 ui.settings.tab.graphics=Grafikler
 ui.settings.tab.language=Dil
@@ -28,8 +38,8 @@ ui.settings.language=Dil
 
 # UI Manager| Flag Bar
 ui.button.diplomacy=Diplomasi
+ui.button.politics=Politika
 ui.button.economy=Ekonomi
-ui.button.unset=Seçilmedi
 ui.button.military=Askeri
 
 # UI Manager| Country Select
@@ -38,6 +48,8 @@ ui.button.play_as=Olarak oyna
 # UI Manager| Settings
 ui.window.settings=Ayarlar
 ui.settings.secondary_icons=İkincil birim simgelerini kullan
+ui.settings.secondary_aircraft_icons=İkincil Uçak Simgelerini Kullan
+ui.settings.nato_aircraft_coloring=NATO Renkli Uçaklar (Arka Plansız)
 ui.settings.flag_zoom_out=Ekranı uzaklaitırınca bayrakları göster (Birimler)
 ui.settings.nation_overlay=Ülke görünümü (N)
 ui.settings.always_flag=Birimler üzerinde bayrakları her zaman göster (F)
@@ -49,11 +61,13 @@ ui.label.buildings=Binalar:
 ui.label.no_buildings=Bina yok
 ui.label.construct=İnşa et:
 ui.button.factory=Fabrika
-ui.button.military_hq=Ordu Karargâhı
-ui.button.depot=Depo
+ui.button.military_hq=Askeri Karargâh
+ui.button.depot=İkmal Deposu
+ui.button.oil_extractor=Petrol Çıkarma Tesisi
+ui.button.refinery=Rafineri
 
 # UI Manager| City Tab (multiple cities)
-ui.label.cities_selected=%zu şehirler seçildi
+ui.label.cities_selected=%zu şehir seçildi
 ui.label.total_buildings=Toplam binalar:
 ui.label.no_buildings_selected=Seçilen şehirlerde bina yok
 ui.button.create_units=Birim oluştur
@@ -65,7 +79,7 @@ ui.building.production_lines=Üretim Hatları:
 ui.building.inventory=Envanter:
 ui.building.no_items=Öğe yok
 ui.button.add_production_line=Üretim hattı ekle
-ui.building.military_hq_title=Ordu Karargâhı
+ui.building.military_hq_title=Askeri Karargâh
 ui.button.spawn_unit=Birim Çağır
 ui.building.supply_depot=Takviye Deposu
 ui.building.stored_equipment=Depolanan Ekipman:
@@ -78,16 +92,32 @@ ui.button.cancel=İptal et
 # UI Manager| Unit Tooltip
 ui.tooltip.no_equipment=Ekipman Yok
 ui.tooltip.morale=Moral: %.1f
+ui.tooltip.organization=Organizasyon: %.2f
 ui.tooltip.retreat_behavior=Geri Çekilme Davranışı: %s
 ui.retreat.normal=Normal
 ui.retreat.hold_position=Pozisyonu Tut
 ui.retreat.fallback=Geri Mevzilen
 ui.tooltip.forming=İntikal: %.0f%%
+ui.tooltip.assigned_to_hq=Şuraya atandı: %s
+ui.tooltip.right_click_for_hq=Karargâha atamak için sağ tıkla
+ui.tooltip.subordinates=Bağlı Birimler: %d
+ui.tooltip.hq_org_bonus=Karargâh Organizasyon Bonusu: +%.0f%%
+
+# UI Manager| HQ Assignment
+ui.hq.assigning=Atanıyor
+ui.hq.assign_mode=Atamak için bir Karargâh birimine tıkla
+ui.hq.assign_cancel=İptal etmek için sağ tıkla veya Esc'ye bas
+ui.hq.assigning_factory=Fabrika Atanıyor
+
+# UI Manager| Factory Tab
+ui.factory.no_hq_assigned=Karargâh atanmadı -- atamak için sağ tıkla
+ui.factory.priority_tooltip=Karargâh otomatik ayarlaması bu üretim hattını atlayacak
+ui.factory.priority_badge=[ÖNCELİK]
 
 # UI Manager| Invasion Mode
 ui.invasion.mode_active=İŞGAL MODU AKTİF
 ui.invasion.draw_line=Saldırı hatları çizerek planla
-ui.invasion.toggle_off="I" tuşuna basarak kapat/aç
+ui.invasion.toggle_off="I" tuşuna basarak kapat
 ui.button.execute=UYGULA
 
 # UI Manager| Building Creation Tab
@@ -104,6 +134,65 @@ ui.diplomacy.button_war=Savaş Aç
 ui.diplomacy.button_break_alliance=İttifakı Boz
 ui.diplomacy.button_peace=Barış Yap
 ui.diplomacy.info_tooltip=Haritaya sağ tıklayarak kapat
+ui.diplomacy.relation_value=İlişki
+ui.diplomacy.active_agreements=Aktif Anlaşmalar
+ui.diplomacy.no_agreements=Aktif anlaşma yok
+ui.diplomacy.propose_agreement=Anlaşma Teklif Et
+ui.diplomacy.agreement.air_support=Hava Desteği Anlaşması
+ui.diplomacy.agreement.equipment_procurement=Ekipman Tedarik Anlaşması
+ui.diplomacy.agreement.satellite_intel=Uydu İstihbaratı
+ui.diplomacy.agreement.military_assistance=Askerî Yardım
+ui.diplomacy.agreement.financial_aid=Mali Yardım
+ui.diplomacy.button.propose_air_support=Hava Desteği Teklif Et
+ui.diplomacy.button.propose_equipment=Ekipman Tedariki Teklif Et
+ui.diplomacy.button.propose_satellite=Uydu İstihbaratı Talep Et
+ui.diplomacy.button.propose_military_access=Askerî Geçiş Hakkı Teklif Et
+ui.diplomacy.button.request_aid=Mali Yardım Talep Et
+ui.diplomacy.button.purchase_equipment=Ekipman Satın Al
+ui.diplomacy.button.emergency_aid=Acil Askerî Yardım Talep Et
+ui.diplomacy.button.terminate=Sonlandır
+ui.diplomacy.purchase.title=Ekipman Tedariki
+ui.diplomacy.purchase.price_factor=Fiyat Faktörü
+ui.diplomacy.purchase.filter_hint=Ekipman filtrele...
+ui.diplomacy.purchase.qty=Miktar
+ui.diplomacy.purchase.buy=Satın Al
+ui.diplomacy.purchase.no_equipment=Hedefin kullanılabilir ekipmanı yok
+ui.diplomacy.button.declare_ally=İttifak İlan Et
+ui.diplomacy.button.declare_war=Savaş İlan Et
+ui.diplomacy.button.break_alliance=İttifakı Boz
+ui.diplomacy.button.declare_peace=Barış İlan Et
+
+# UI Manager| Politics tab
+ui.politics.political_support=Siyasi Destek
+ui.politics.support_breakdown=Destek Dağılımı
+ui.politics.civilian_stability=Sivil İstikrar
+ui.politics.victory_progress=Zafer İlerlemesi
+ui.politics.active_policies=Aktif Politikalar
+ui.politics.effects=Etkiler:
+ui.politics.conscription=Zorunlu Askerlik
+ui.politics.economy=Ekonomi
+ui.politics.security=Güvenlik
+
+# UI Manager| Economy tab
+ui.economy.treasury=Hazine
+ui.economy.income=Gelir
+ui.economy.expenses=Giderler
+ui.economy.net=Net
+ui.economy.urban_taxation=Kentsel Vergilendirme
+ui.economy.oil_exports=Petrol İhracatı
+ui.economy.foreign_aid=Yabancı Yardım
+ui.economy.total_income=Toplam Gelir
+ui.economy.military_upkeep=Askerî Bakım Masrafları
+ui.economy.building_upkeep=Bina Bakım Masrafları
+ui.economy.equip_purchases=Ekipman Alımları
+ui.economy.total_expenses=Toplam Giderler
+ui.economy.national_resources=Ulusal Kaynak Stokları
+ui.economy.crude_oil=Ham Petrol
+ui.economy.fuel=Yakıt
+ui.economy.iron_ore=Demir Cevheri
+ui.economy.steel=Çelik
+ui.economy.food=Gıda
+ui.economy.consumer_goods=Tüketim Malları
 
 # Editor| Top Bar
 editor.btn.provinces=Bölgeler
@@ -180,7 +269,7 @@ editor.window.nation=Ülke Özellikleri
 editor.label.nation_hash=Hash: %u  Bölgeler: %d
 editor.input.nation_name=Ülke İsmi
 editor.label.no_flag=(bayrak yok)
-editor.label.flag_set=Flag set: %s
+editor.label.flag_set=Bayrak seti: %s
 editor.btn.change_flag=Bayrak Değiştir...
 editor.label.allies=Müttefikler
 editor.btn.add_ally=Müttefik Ekle
@@ -241,7 +330,7 @@ editor.btn.add_production_line=Üretim Hattı Ekle
 editor.label.depot_props=Depo Özellikleri
 editor.input.max_equipment=Maksimum Ekipman Kapasitesi
 editor.input.max_manpower=Maksimum Personel Kapasitesi
-editor.label.military_hq=Ordu Karargâhı
+editor.label.military_hq=Askeri Karargâh
 editor.label.no_additional_props=Ek özellik yok
 editor.btn.delete_building=Binaları Sil
 
@@ -264,9 +353,9 @@ editor.mode.roads=Yollar
 editor.mode.buildings=Binalar
 editor.mode.units=Birimler
 editor.mode.nations=Ülkeler
-editor.status.modified=[DEĞİŞTİRİLDİ]
-editor.status.dropper_active=| DAMLATICI AKTİF
-editor.status.add_vertex=| KÖŞE EKLE
+editor.status.modified= [DEĞİŞTİRİLDİ]
+editor.status.dropper_active= | DAMLALIK AKTİF
+editor.status.add_vertex= | KÖŞE EKLE
 editor.status.no_map=Harita yüklenmedi
 
 # Editor| Help Overlay
@@ -294,7 +383,7 @@ editor.tooltip.dropper=Haritadaki bir bölgeye tıklayarak sahip olduğu ülkeyi
 editor.hint.search_nations=Ülke ara...
 editor.hint.search_provinces=Bölge ara...
 
-# ---- Editor — Province Creation Panel ----
+#Editor| Province Creation Panel
 editor.window.draw_province=Bölge Çiz
 editor.label.click_map_vertices=Köşe noktalarını yerleştirmek için haritaya tıkla
 editor.label.vertices_placed=Yerleştirilen köşe sayısı: %d
@@ -369,3 +458,375 @@ editor.btn.units_tab=Birimler
 editor.btn.save_all_def=Tümünü Kaydet
 editor.btn.close=Kapat
 editor.label.background_icons=Arka Plan Simgeleri
+
+# Map Events| UI
+ui.event.expires=Sona Erer
+ui.event.effect_stability=İstikrar
+ui.event.effect_political=Siyasi Destek
+ui.event.effect_treasury=Hazine
+ui.event.chance_outcome=Olası Sonuç
+
+# Map Events| Anti-Government Protests
+event.protest.title=Hükümet Karşıtı Protestolar
+event.protest.desc=%s bölgesinde gösteriler başladı.
+event.protest.negotiate=Müzakere Et
+event.protest.crack_down=Bastır
+event.protest.ignore=Yok Say
+
+# Map Events| Corruption Scandal
+event.corruption.title=Yolsuzluk Skandalı
+event.corruption.desc=%s bölgesinde bir yolsuzluk skandalı ortaya çıktı.
+event.corruption.investigate=Araştır
+event.corruption.cover_up=Üstünü Ört
+
+# Map Events| Prominent Defection
+event.defection.title=Önemli İltica
+event.defection.desc=Üst düzey bir yetkili %s bölgesinden ayrıldı.
+event.defection.amnesty=Af Teklif Et
+event.defection.denounce=Haini Kına
+
+# Map Events| Religious Leaders Statement
+event.religious.title=Dini Liderlerin Açıklaması
+event.religious.desc=Dini liderler bir açıklama yayınladı.
+event.religious.support=Açıklamayı Destekle
+event.religious.reject=Açıklamayı Reddet
+event.religious.neutral=Tarafsız Kal
+
+# Map Events| National Reconciliation
+event.reconciliation.title=Ulusal Uzlaşma Teklifi
+event.reconciliation.desc=Bir ulusal uzlaşma teklifi sunuldu.
+event.reconciliation.accept=Görüşmeleri Kabul Et
+event.reconciliation.reject=Görüşmeleri Reddet
+
+# Map Events| Local Council Autonomy
+event.autonomy.title=Yerel Konsey Özerklik İlan Etti
+event.autonomy.desc=%s bölgesindeki yerel konsey özerklik ilan etti.
+event.autonomy.recognize=Tanın
+event.autonomy.negotiate=Müzakere Et
+event.autonomy.suppress=Bastır
+
+# Map Events| Refugee Crisis
+event.refugee.title=Mülteci Krizi
+event.refugee.desc=%s yakınlarında bir mülteci krizi yaşanıyor.
+event.refugee.assistance=Yardım Sağla
+event.refugee.military=Askerî İhtiyaçlara Öncelik Ver
+
+# Map Events| Local Tribal Alliance
+event.tribal.title=Yerel Kabile İttifakı
+event.tribal.desc=Yerel bir kabile ittifakı %s bölgesinde destek teklif etti.
+event.tribal.support=Destek Teklif Et
+event.tribal.ignore=Yok Say
+
+# Settings| Window Mode Labels
+ui.settings.window_mode.windowed=Pencereli
+ui.settings.window_mode.borderless=Kenarlıksız
+ui.settings.window_mode.fullscreen=Tam Ekran
+
+# Settings| Notes
+ui.settings.note.restart_safe=Bu ayarlar oyun sırasında güvenle değiştirilebilir.
+ui.settings.note.lang_live=Dil değişiklikleri anında uygulanır.
+
+# Settings| Dev
+ui.settings.reveal_all_units=Tüm Birimleri Göster (Geliştirici)
+
+# City Tooltip
+ui.city.tooltip.population=Nüfus
+ui.city.tooltip.stability=İstikrar
+ui.city.tooltip.food_supply=Gıda Tedariki
+ui.city.tooltip.food_stockpile=Gıda Stoğu
+ui.city.tooltip.consumer_goods=Tüketim Malları
+ui.city.tooltip.cg_stockpile=TM Stoğu
+ui.city.tooltip.manpower_pool=İnsan Gücü Havuzu
+ui.city.tooltip.building_health=Bina Dayanıklılığı
+ui.city.tooltip.damaged=hasarlı
+ui.city.tooltip.depot_supply=Depo İkmali
+ui.city.tooltip.employment=İstihdam
+
+# Building| Construction
+ui.building.construction_site=İnşaat Alanı
+ui.building.building_label=Bina
+ui.building.family_label=Aile
+ui.building.progress_label=İlerleme
+ui.building.remaining_label=Kalan
+ui.building.cancel_construction=İnşaatı İptal Et
+
+# Building| Tooltips
+ui.building.tooltip.health=Dayanıklılık
+ui.building.tooltip.output_inventory=Üretim Stoğu
+ui.building.tooltip.steel=Çelik
+ui.building.tooltip.supplies_stored=Depolanan İkmal
+ui.building.tooltip.manpower_stored=İnsan Gücü
+ui.building.tooltip.fuel=Yakıt
+ui.building.tooltip.crude_oil=Ham Petrol
+ui.building.tooltip.iron_ore=Demir Cevheri
+ui.building.tooltip.aircraft_stored=Depolanan Uçak
+ui.building.tooltip.food=Gıda
+ui.building.tooltip.consumer_goods_stored=Depolanan Tüketim Malları
+
+# Building| Factory
+ui.building.no_family_assigned=HİÇBİR AİLE ATANMADI
+ui.building.set_family=Aile Ata
+ui.building.change=Değiştir
+ui.building.thr=KAP
+ui.building.hq_label=Karargâh
+ui.building.hq_none=YOK
+ui.building.no_families=Kullanılabilir aile yok
+ui.building.none_all_families=(Yok - Tüm Aileler)
+ui.building.factories_assigned=Atanan fabrikalar
+
+# Building| Individual Buildings (Headers)
+ui.building.oil_extractor=Petrol Çıkarma Tesisi
+ui.building.refinery=Rafineri
+ui.building.agri_center=Tarım Merkezi
+ui.building.iron_mine=Demir Madeni
+ui.building.heavy_industry=Ağır Sanayi
+ui.building.civilian_industry=Sivil Sanayi
+ui.building.airbase=Hava Üssü
+ui.building.arms_factory=Silah Fabrikası
+ui.building.vehicle_factory=Araç Fabrikası
+ui.building.artillery_factory=Topçu Fabrikası
+
+# Building| Oil Extractor
+ui.building.oil.rate_ship=Hız: %.1f varil/sn  |  Sevkiyat: %d
+ui.building.oil.stored=Depolanan: %d / %d varil
+ui.building.oil.next_barrel=Sonraki varil: %.0f%%
+ui.building.oil.dispatching=Sevkiyat gönderiliyor...
+ui.building.oil.filling=Dolduruluyor (%d/%d)
+
+# Building| Refinery
+ui.building.refinery.rate_ship=Hız: %.1f varil/sn  |  Sevkiyat: %d
+ui.building.refinery.crude_stored=Ham Petrol: %d / %d
+ui.building.refinery.fuel_stored=Yakıt: %d / %d
+ui.building.refinery.no_crude=Ham petrol yok - beklemede
+ui.building.refinery.dispatching=Yakıt sevk ediliyor...
+ui.building.refinery.refining=Rafine ediliyor...
+
+# Building| Agricultural Center
+ui.building.agri.rate_ship=Hız: %.1f gıda/sn  |  Sevkiyat: %d
+ui.building.agri.stored=Depolanan: %d / %d gıda
+ui.building.agri.dispatching=Gıda sevkiyatı gönderiliyor...
+ui.building.agri.harvesting=Hasat yapılıyor (%d/%d)...
+
+# Building| Iron Mine
+ui.building.iron.rate_ship=Çıkarma: %.1f ton/sn  |  Sevkiyat: %d
+ui.building.iron.stored=Depolanan: %d / %d demir cevheri
+ui.building.iron.dispatching=Demir cevheri sevk ediliyor...
+ui.building.iron.mining=Madencilik (%d/%d)...
+
+# Building| Heavy Industry
+ui.building.heavy.rate_ship=Dönüşüm: %.1f ton/sn  |  Sevkiyat: %d
+ui.building.heavy.ore_input=Demir Cevheri Girdisi: %d / %d
+ui.building.heavy.steel_output=Çelik Çıkışı: %d  (sevkiyat: %d)
+ui.building.heavy.waiting_ore=Demir cevheri bekleniyor...
+ui.building.heavy.dispatching=Çelik sevk ediliyor...
+ui.building.heavy.smelting=Ergitiliyor...
+
+# Building| Civilian Industry
+ui.building.civ.rate_ship=Hız: %.1f mal/sn  |  Sevkiyat: %d
+ui.building.civ.buffer_stored=Tampon: %d mal  |  Depolanan: %d / %d
+ui.building.civ.dispatching=Tüketim malları sevk ediliyor...
+ui.building.civ.producing=Üretiliyor (%d/%d)...
+ui.building.civ.connected_urban=Bağlı Kentsel Alanlar
+ui.building.civ.no_urban=Ulusta kentsel alan yok
+ui.building.civ.urban_entry=  %s (%.0f%%, q=%d, %.0fkm)
+ui.building.civ.show_less=Daha Az Göster
+ui.building.civ.show_all=Hepsini Göster
+ui.building.civ.nation_status=Ulus Durumu
+ui.building.civ.avg_supply=  Ortalama arz: %.0f%%  |  En düşük: %.0f%%  |  Kentsel alanlar: %d
+ui.building.civ.rate_demand=  Üretiminiz: %.1f/sn  |  Toplam talep: %.1f/sn
+ui.building.civ.tooltip=Tüketim malları kentsel istikrarı artırır ve huzursuzluğu azaltır.
+
+# Building| Depot
+ui.building.depot.equipment=Ekipman: %d / %d
+ui.building.depot.manpower=İnsan Gücü: %d / %d
+ui.building.depot.crude=Ham Petrol: %d / %d
+ui.building.depot.fuel=Yakıt: %d / %d
+
+# Building| Airbase
+ui.building.airbase.aircraft=Uçak: %d / %d (%d atanmış)
+ui.building.airbase.stationed=Konuşlandırılmış Uçaklar
+ui.building.airbase.no_aircraft=Burada konuşlandırılmış uçak yok
+ui.building.airbase.sorties=Harekâtlar
+ui.building.airbase.no_sorties=Planlanmış harekât yok
+ui.building.airbase.new_sortie=+ Yeni Harekât
+ui.building.airbase.airborne=[HAVADA]
+ui.building.airbase.planned=[PLANLANDI]
+ui.building.airbase.sortie_entry=Harekât #%d - %s
+ui.building.airbase.aircraft_count=Uçak: %d  |  İrtifa: %.0f ft
+ui.building.airbase.target=Hedef: (%.4f, %.4f)
+ui.building.airbase.no_target=Hedef belirlenmedi
+ui.building.airbase.edit=Düzenle
+ui.building.airbase.dismiss=Kapat
+ui.building.airbase.launch=Başlat
+ui.building.airbase.x_button=X
+ui.building.airbase.assign_hq=Karargâh Ata
+ui.building.airbase.unassign=Atamayı Kaldır
+ui.building.airbase.available_fmt=(%d kullanılabilir)
+
+# Building| Creation Tab
+ui.building.create.select_type=Bina türü seç
+ui.building.create.click_to_place=Yerleştirmek için haritada sol tıkla.
+ui.building.create.press_b=Kapatmak için B'ye bas veya İptal et.
+ui.building.create.arms_factory=Silah Fabrikası
+ui.building.create.military_hq=Askerî Karargâh
+ui.building.create.depot=İkmal Deposu
+ui.building.create.oil_extractor=Petrol Çıkarma Tesisi
+ui.building.create.refinery=Rafineri
+ui.building.create.agri_center=Tarım Merkezi
+ui.building.create.iron_mine=Demir Madeni
+ui.building.create.heavy_industry=Ağır Sanayi
+ui.building.create.vehicle_factory=Araç Fabrikası
+ui.building.create.artillery_factory=Topçu Fabrikası
+ui.building.create.civilian_industry=Sivil Sanayi
+ui.building.create.cancel=İptal
+
+# Unit Tooltips
+ui.tooltip.unknown_unit=Bilinmeyen birim
+ui.tooltip.unknown=Bilinmeyen
+ui.tooltip.fuel_status=Yakıt: %.0f%% (%+.1f/t)  Ceza: %.0f%%
+ui.tooltip.road_health=Yol Dayanıklılığı: %.0f%% (-%.0f%% hız)
+
+# Infantry / Road Health Label
+ui.label.road_health=Yol Dayanıklılığı
+ui.label.health=Dayanıklılık
+
+# Economy Tab
+ui.economy.treasury_label=Hazine
+ui.economy.income_label=Gelir
+ui.economy.expenses_label=Giderler
+ui.economy.net_label=Net
+ui.economy.total_income_fmt=Toplam Gelir:      +%.1f /sn
+ui.economy.total_expenses_fmt=Toplam Gider:    -%.1f /sn
+ui.economy.net_fmt=Net:               %+.1f /sn
+ui.economy.net_tooltip_fmt=Net gelir oranı. Bu hızla hazine gelecek dakika içinde %s %.0f değişecek
+ui.economy.net_grow=büyüyecek
+ui.economy.net_shrink=küçülecek
+ui.economy.urban_tax_fmt=Kentsel Vergiler:    +%.1f /sn
+ui.economy.oil_exports_fmt=Petrol İhracatı:       +%.1f /sn
+ui.economy.foreign_aid_fmt=Yabancı Yardım:       +%.1f /sn
+ui.economy.military_upkeep_fmt=Askerî Bakım:   -%.1f /sn
+ui.economy.building_upkeep_fmt=Bina Bakımı:   -%.1f /sn
+ui.economy.equip_purchases_fmt=Ekipman Alımları:  -%.1f /sn
+ui.economy.resources_label=Ulusal Kaynak Stokları
+ui.economy.crude_oil_fmt=Ham Petrol:        %d
+ui.economy.fuel_fmt=Yakıt:             %d
+ui.economy.iron_ore_fmt=Demir Cevheri:         %d
+ui.economy.steel_fmt=Çelik:            %d
+ui.economy.food_fmt=Gıda:             %d
+ui.economy.consumer_goods_fmt=Tüketim Malları:   %d
+
+# Economy| Tooltips
+ui.economy.tooltip.tax=Kontrolünüz altındaki kentsel nüfustan elde edilen vergi geliri.\nYaklaşık olarak her 1000 vatandaş başına 1 hazine/sn.
+ui.economy.tooltip.oil=Fazla ham petrol ihracatından elde edilen gelir\n(yerli rafineri + birim yakıt tüketimini aşan üretim).\n1 varil/sn fazlalık = 0.5 hazine/sn.
+ui.economy.tooltip.aid=Aktif Mali Yardım anlaşmaları altındaki\nülkelerden gelen finansal yardım.
+ui.economy.tooltip.military_upkeep=Ekipman bakım maliyeti (üretim maliyetinin her eşya için saniyede %%0.5'i)\n+ insan gücü maaşı (birim başına 0.5/sn).
+ui.economy.tooltip.building_upkeep=Tüm binaların bakım masrafları.\nFabrikalar: 1.0/sn, Karargâh: 2.0/sn, Depolar: 0.5/sn,\nPetrol/Rafineri/Maden/AğırSanayi: 1.5/sn,\nTarım: 0.5/sn, SivilSanayi: 0.3/sn, HavaÜssü: 3.0/sn.
+ui.economy.tooltip.equip_purchases=Diğer ülkelerden tedarik anlaşmalarıyla\nsatın alınan ekipmanın dağıtılmış maliyeti.
+
+# Politics Tab
+ui.politics.political_support_label=Siyasi Destek
+ui.politics.civilian_stability_label=Sivil İstikrar
+ui.politics.victory_progress_label=Zafer İlerlemesi
+ui.politics.active_policies_label=Aktif Politikalar
+ui.politics.objectives_label=Hedefler
+ui.politics.conscription_label=Zorunlu Askerlik
+ui.politics.economy_label=Ekonomi
+ui.politics.security_label=Güvenlik
+ui.politics.hold_until_fmt=Şu tarihe kadar tut: %04d-%02d-%02d
+ui.politics.elite=Elit
+ui.politics.military=Askerî
+ui.politics.government=Hükümet
+ui.politics.urban_civilian=Kentsel Sivil
+
+# Politics| Policy Effects
+ui.politics.effects_on_selection=Seçimdeki Etkiler
+ui.politics.effect.elite=Elit
+ui.politics.effect.military=Askerî
+ui.politics.effect.government=Hükümet
+ui.politics.effect.urban_civilian=Kentsel Sivil
+ui.politics.effect.stability=İstikrar
+ui.politics.effect.manpower=İnsan Gücü
+ui.politics.effect.factory_output=Fabrika Üretimi
+ui.politics.effect.consumer_goods=Tüketim Malları
+ui.politics.effect.no_change=Değişiklik Yok
+
+# Military Tab
+ui.military.unit_composition=Birim Dizilişi Düzenleyici
+ui.military.live_unit_editor=Canlı Birim Düzenleyici
+ui.military.unit_types=Birim Türleri
+ui.military.selected_fmt=Seçildi (%d)
+ui.military.composition=Diziliş
+ui.military.no_units=Hiçbir birim seçilmedi.
+ui.military.composition_goals_fmt=Diziliş Hedefleri  (%d birim%s)
+ui.military.goal=Hedef
+ui.military.sync_all=Tümünü Eşitle
+ui.military.select_prompt=Listeden bir birim türü seç veya haritadaki birimleri seçip C'ye bas.
+ui.military.add_family=+ Aile Ekle
+
+# Sortie Tab
+ui.sortie.airborne=HAVADA
+ui.sortie.planned=PLANLANDI
+ui.sortie.title_fmt=Harekât #%d [%s]
+ui.sortie.aircraft_assigned=Atanan Uçaklar
+ui.sortie.none_assigned=Atanan yok
+ui.sortie.add_aircraft=Uçak Ekle
+ui.sortie.remove_aircraft=Uçağı Kaldır
+ui.sortie.select_aircraft=Uçak Türü Seç
+ui.sortie.no_aircraft_avail=Kullanılabilir uçak yok
+ui.sortie.mission_label=Görev
+ui.sortie.target_label=Hedef
+ui.sortie.no_target_set=Hedef belirlenmedi
+ui.sortie.set_target=Haritada Hedef Belirle
+ui.sortie.click_map=Haritaya tıkla...
+ui.sortie.clear=Temizle
+ui.sortie.altitude=İrtifa
+ui.sortie.air_radius=Hava Menzili
+ui.sortie.mission_strength=Görev Gücü
+ui.sortie.org_efficiency=Organizasyon Verimliliği
+ui.sortie.large_batch=(Büyük grup cezası)
+ui.sortie.low_fuel=DÜŞÜK YAKIT
+ui.sortie.slowest_aircraft=En yavaş uçak: %.6f b/sn
+ui.sortie.time_airborne=Havadaki süre: %.0f sn
+ui.sortie.dismiss_recall=Kapat (Uçağı Geri Çağır)
+ui.sortie.close=Kapat
+ui.sortie.launch_sortie=HAREKÂTI BAŞLAT
+ui.sortie.need_aircraft=Başlatmak için uçak ve hedef gerekli
+ui.sortie.launch_idle=Hedef Olmadan Başlat (Devriye)
+
+# Sortie| Aircraft Tooltip
+ui.sortie.tooltip.alt=İrtifa
+ui.sortie.tooltip.mission=Görev
+ui.sortie.tooltip.strength=Güç
+ui.sortie.tooltip.efficiency=Verimlilik
+ui.sortie.tooltip.fuel_fmt=Yakıt: %.0f / %.0f (%.0f%%)
+ui.sortie.tooltip.helicopter=(Helikopter)
+ui.sortie.tooltip.phase=Aşama
+ui.sortie.tooltip.state=Durum
+
+# Sortie — Flight Phases
+ui.sortie.phase.transit=İntikal
+ui.sortie.phase.racetrack=Devriye Rotası
+ui.sortie.phase.figure8=Sekiz Rotası
+ui.sortie.phase.ingress=Yaklaşma
+ui.sortie.phase.egress=Ayrılma
+ui.sortie.phase.weave=Zikzak
+ui.sortie.state.transit=İntikal
+ui.sortie.state.on_station=Görev Konumunda
+ui.sortie.state.rtb=Üsse Dönüş
+
+# City Tab| Construction Buttons
+ui.button.agri_center=Tarım Merkezi
+ui.button.civ_industry=Sivil Sanayi
+ui.button.airbase=Hava Üssü
+
+# Unit Creation Tab
+ui.window.unit_creator=Birim Oluşturucu
+
+# End Game
+ui.endgame.title=ZAFER
+ui.endgame.subtitle=Tüm hedefler güvence altına alındı. Ulus birleşmiş durumda.
+
+# HQ Assignment
+ui.building.hq_name=Karargâh
+ui.building.hq_assign=Karargâh Ata
+ui.building.hq_unassign=Karargâh Atamasını Kaldır
