@@ -11,11 +11,21 @@ menu.button.settings=Ρυθμίσεις
 menu.button.quit=Έξοδος
 menu.intro.presented_by=Παρουσιάζεται από τον
 menu.intro.layth_issam_elzaim=Λ έ ι θ  Ι σ ά μ  Ε λ  Ζ α ί μ
-# You can transliterate or get the equivalent of my name in your language, 
-#make sure to do a space between each character that is next to each other, 
-#and double space where there would normally be 1 space.
 
-# Settings| NEW STUFF AND THAT'S IT [No other updates past my name and the settings for now]
+# Credits Screen
+menu.credits.line1=Ένα παιχνίδι από τον Λέιθ Ισάμ Ελ Ζαίμ
+menu.credits.line2=(Μοναδικός προγραμματιστής & Δημιουργός)
+# to make space between credits do the key then leave value blank like so
+menu.credits.line3=
+#Then I would like for all contributors to put their credit appropriately, for example for translation (which is pretty much everyone except 1):
+menu.credits.line4=Αγγλική γλώσσα από τον Λέιθ
+menu.credits.line5=
+menu.credits.line6=Ελληνική μετάφραση από τον DLRGR202O
+#now add all of yours here and all translators try to keep your locales up to date with the credits as well, you can even put the names in the respective language.
+
+menu.credits.click_to_return=Κάντε κλικ οπουδήποτε για να επιστρέψετε
+
+# Settings
 ui.settings.title=Ρυθμίσεις
 ui.settings.tab.graphics=Γραφικά
 ui.settings.tab.language=Γλώσσα
@@ -38,6 +48,8 @@ ui.button.play_as=Παίξτε ως
 # UI Manager| Settings
 ui.window.settings=Ρυθμίσεις
 ui.settings.secondary_icons=Χρήση Δευτερευόντων Εικόνων Μονάδων
+ui.settings.secondary_aircraft_icons=Χρήση Δευτερευόνων Εικόνων Αεροσκαφών
+ui.settings.nato_aircraft_coloring=Αεροσκάφη με χρώματα ΝΑΤΟ (Χωρίς φόντο)
 ui.settings.flag_zoom_out=Εμφάνιση Σημαίας κατά την σμίκρυνση (Μονάδες)
 ui.settings.nation_overlay=Μενού Χώρας (N)
 ui.settings.always_flag=Μόνιμη Προβολή της Σημαίας στις Μονάδες (F)
@@ -51,6 +63,8 @@ ui.label.construct=Κατασκευή:
 ui.button.factory=Εργοστάσιο
 ui.button.military_hq=Στρατηγείο
 ui.button.depot=Αποθήκη εφοδίων
+ui.button.oil_extractor=Εξαγωγέας Πετρελαίου
+ui.button.refinery=Διυλιστήριο
 
 # UI Manager| City Tab (multiple cities)
 ui.label.cities_selected=%zu πόλεις επιλεγμένες
@@ -78,11 +92,27 @@ ui.button.cancel=Ακύρωση
 # UI Manager| Unit Tooltip
 ui.tooltip.no_equipment=Δεν υπάρχει εξοπλισμός
 ui.tooltip.morale=Morale: %.1f
+ui.tooltip.organization=Οργάνωση: %.2f
 ui.tooltip.retreat_behavior=Τάση Οπισθοχώρισης: %s
 ui.retreat.normal=Κανονική
 ui.retreat.hold_position=Διατήρηση Θέσης
 ui.retreat.fallback=Οπισθοχώριση
 ui.tooltip.forming=ΣΧΗΜΑΤΙΣΜΟΣ: %.0f%%
+ui.tooltip.assigned_to_hq=Ανάθεση σε: %s
+ui.tooltip.right_click_for_hq=Δεξί-κλικ για να αναθέσετε σε μονάδα διοίκησης
+ui.tooltip.subordinates=Κατώτεροι: %d
+ui.tooltip.hq_org_bonus=Ενίσχυση οργάνωσης από μονάδα διοίκησης: +%.0f%%
+
+# UI Manager| HQ Assignment
+ui.hq.assigning=Εκχώρηση
+ui.hq.assign_mode=Πατήστε σε μια μονάδα διοίκησης για να εκχωρήσετε
+ui.hq.assign_cancel=Κάντε δεξί-κλικ ή πατήστε Esc για ακύρωση
+ui.hq.assigning_factory=Εκχώρηση Εργοστασίου
+
+# UI Manager| Factory Tab
+ui.factory.no_hq_assigned=Δεν έχει επιλεγεί μονάδα διοίκησης -- δεξί-κλικ για να επιλέξετε
+ui.factory.priority_tooltip=Η αυτόματη ρύθμιση της μονάδας διοίκησης θα παραλείψει αυτή τη γραμμή παραγωγής
+ui.factory.priority_badge=[ΠΡΟΤΕΡΑΙΟΤΗΤΑ]
 
 # UI Manager| Invasion Mode
 ui.invasion.mode_active=ΛΕΙΤΟΥΡΓΙΑ ΕΙΣΒΟΛΗΣ ΕΝΕΡΓΗ
@@ -101,9 +131,68 @@ ui.diplomacy.status_war=ΣΕ ΠΟΛΕΜΟ
 ui.diplomacy.status_neutral=Ουδετερότητα
 ui.diplomacy.button_ally=Κήρυξη Συμμαχίας
 ui.diplomacy.button_war=Κήρυξη Πολέμου
-ui.diplomacy.button_break_alliance=Διακοπή Συμμαχίας
+ui.diplomacy.button_break_alliance=Τερματισμός Συμμαχίας
 ui.diplomacy.button_peace=Κήρυξη Ειρήνης
 ui.diplomacy.info_tooltip=Κάντε δεξί-κλικ στον χάρτη για να τον κλείσετε
+ui.diplomacy.relation_value=Σχέσεις
+ui.diplomacy.active_agreements=Ενεργές Συμφωνίες
+ui.diplomacy.no_agreements=Δεν υπάρχουν ενεργές συμφωνίες
+ui.diplomacy.propose_agreement=Προτείνετε Συμφωνία
+ui.diplomacy.agreement.air_support=Συμφωνία Αεροπορικής Υποστήριξης
+ui.diplomacy.agreement.equipment_procurement=Προμήθεια Εξοπλισμού
+ui.diplomacy.agreement.satellite_intel=Δορυφορικές Πληροφορίες
+ui.diplomacy.agreement.military_assistance=Στρατιωτική Βοήθεια
+ui.diplomacy.agreement.financial_aid=Οικονομική Βοήθεια
+ui.diplomacy.button.propose_air_support=Προτείνετε Αεροπορική Υποστήριξη
+ui.diplomacy.button.propose_equipment=Προτείνετε Προμήθεια Εξοπλισμού
+ui.diplomacy.button.propose_satellite=Ζητήστε Δορυφορικές Πληροφορίες
+ui.diplomacy.button.propose_military_access=Προτείνετε Στρατιωτική Πρόσβαση
+ui.diplomacy.button.request_aid=Ζητήστε Οικονομική Βοήθεια
+ui.diplomacy.button.purchase_equipment=Αγοράστε Εξοπλισμό
+ui.diplomacy.button.emergency_aid=Ζητήστε Έκτακτη Στρατιωτική Βοήθεια
+ui.diplomacy.button.terminate=Τερματίστε
+ui.diplomacy.purchase.title=Προμήθεια Εξοπλισμού
+ui.diplomacy.purchase.price_factor=Συντελεστής Τιμής
+ui.diplomacy.purchase.filter_hint=Φιλτράρισμα εξοπλισμού...
+ui.diplomacy.purchase.qty=Ποσ.
+ui.diplomacy.purchase.buy=Αγορά
+ui.diplomacy.purchase.no_equipment=Το επιλεγμένο κράτος δεν έχει διαθέσιμο εξοπλισμό
+ui.diplomacy.button.declare_ally=Κήρυξη Συμμαχίας
+ui.diplomacy.button.declare_war=Κήρυξη Πολέμου
+ui.diplomacy.button.break_alliance=Τερματισμός Συμμαχίας
+ui.diplomacy.button.declare_peace=Κήρυξη Ειρήνης
+
+# UI Manager| Politics tab
+ui.politics.political_support=Πολιτική Στήριξη
+ui.politics.support_breakdown=Ανάλυση Στήριξης
+ui.politics.civilian_stability=Πολιτική Σταθερότητα
+ui.politics.victory_progress=Πρόοδος προς τη νίκη
+ui.politics.active_policies=Ενεργές Πολιτικές
+ui.politics.effects=Συνέπειες:
+ui.politics.conscription=Στράτευση
+ui.politics.economy=Οικονομία
+ui.politics.security=Ασφάλεια
+
+# UI Manager| Economy tab
+ui.economy.treasury=Κρατικό Ταμείο
+ui.economy.income=Έσοδα
+ui.economy.expenses=Έξοδα
+ui.economy.net=Καθαρά
+ui.economy.urban_taxation=Αστική Φορολογία
+ui.economy.oil_exports=Εξαγωγές Πετρελαίου
+ui.economy.foreign_aid=Ξένη Βοήθεια
+ui.economy.total_income=Συνολικά Έσοδα
+ui.economy.military_upkeep=Συντήρηση Στρατού
+ui.economy.building_upkeep=Συντήρηση Κτηρίων
+ui.economy.equip_purchases=Επιλ. Αγορές
+ui.economy.total_expenses=Συνολικά Έξοδα
+ui.economy.national_resources=Εθνικά Αποθέματα Πόρων
+ui.economy.crude_oil=Αργό Πετρέλαιο
+ui.economy.fuel=Καύσιμα
+ui.economy.iron_ore=Σιδηρομετάλλευμα
+ui.economy.steel=Ατσάλι
+ui.economy.food=Τρόφιμα
+ui.economy.consumer_goods=Καταναλωτικά Αγαθά
 
 # Editor| Top Bar
 editor.btn.provinces=Επαρχίες
@@ -369,3 +458,375 @@ editor.btn.units_tab=Μονάδες
 editor.btn.save_all_def=Αποθήκευση Όλων
 editor.btn.close=Κλείσιμο
 editor.label.background_icons=Εικόνες Φόντου
+
+# Map Events| UI
+ui.event.expires=Λήγει
+ui.event.effect_stability=Σταθερότητα
+ui.event.effect_political=Πολιτική Στήριξη
+ui.event.effect_treasury=Ταμείο Κράτους
+ui.event.chance_outcome=Πιθανό αποτέλεσμα
+
+# Map Events| Anti-Government Protests
+event.protest.title=Αντικυβερνητικές Διαδηλώσεις
+event.protest.desc=Διαδηλώσεις έχουν ξεκινήσει σε %s.
+event.protest.negotiate=Διαπραγμάτευση
+event.protest.crack_down=Καταστολή
+event.protest.ignore=Αγνοείστε
+
+# Map Events| Corruption Scandal
+event.corruption.title=Σκάνδαλο Διαφθοράς
+event.corruption.desc=Ένα σκάνδαλο διαφθοράς αποκαλύφθηκε σε %s.
+event.corruption.investigate=Διερεύνηση
+event.corruption.cover_up=Συγκάλυψη
+
+# Map Events| Prominent Defection
+event.defection.title=Εξέχουσα Αποστασία
+event.defection.desc=Ένας υψηλόβαθμος αξιωματούχος αποστάτησε από %s.
+event.defection.amnesty=Προσφορά Αμνηστίας
+event.defection.denounce=Καταγγελία ως Προδότη
+
+# Map Events| Religious Leaders Statement
+event.religious.title=Δήλωση από Θρησκευτικούς Ηγέτες
+event.religious.desc=Θρησκευτικοί ηγέτες εξέδωσαν μία δήλωση.
+event.religious.support=Στήριξη Δήλωσης
+event.religious.reject=Απόρριψη Δήλωσης
+event.religious.neutral=Διατήρηση Ουδετερότητας
+
+# Map Events| National Reconciliation
+event.reconciliation.title=Πρόταση Εθνικής Συμφιλίωσης
+event.reconciliation.desc=Υποβλήθηκε μία πρόταση για εθνική συμφιλίωση.
+event.reconciliation.accept=Αποδοχή Συνομιλιών
+event.reconciliation.reject=Απόρριψη Συνομιλιών
+
+# Map Events| Local Council Autonomy
+event.autonomy.title=Τοπικό Συμβούλιο Ανακηρύσσει Αυτονομία
+event.autonomy.desc=Το τοπικό συμβούλιο σε %s ανακύρηξε αυτονομία.
+event.autonomy.recognize=Αναγνώριση
+event.autonomy.negotiate=Διαπραγμάτευση
+event.autonomy.suppress=Καταστολή
+
+# Map Events| Refugee Crisis
+event.refugee.title=Προσφυγική Κρίση
+event.refugee.desc=Μια προσφυγική κρίση βρίσκεται σε εξέλιξη κοντά σε %s.
+event.refugee.assistance=Παροχή Βοήθειας
+event.refugee.military=Προτεραιοποίηση Στρατιωτικών Αναγκών
+
+# Map Events| Local Tribal Alliance
+event.tribal.title=Τοπική Φυλετική Συμμαχία
+event.tribal.desc=Μια τοπική φυλετική συμμαχία ζήτησε υποστήριξη σε %s.
+event.tribal.support=Παροχή Υποστήριξης
+event.tribal.ignore=Αγνοείστε
+
+# Settings| Window Mode Labels
+ui.settings.window_mode.windowed=Παράθυρο
+ui.settings.window_mode.borderless=Παράθυρο χωρίς όρια
+ui.settings.window_mode.fullscreen=Πλήρης Οθόνη
+
+# Settings| Notes
+ui.settings.note.restart_safe=Μπορείτε να αλλάξετε αυτές τις ρυθμίσεις με ασφάλεια κατά τη διάρκεια του παιχνιδιού.
+ui.settings.note.lang_live=Οι αλλαγές στη γλώσσα πραγματοποιούνται αμέσως.
+
+# Settings| Dev
+ui.settings.reveal_all_units=Αποκάλυψη όλων των μονάδων (Dev)
+
+# City Tooltip
+ui.city.tooltip.population=Πληθυσμός
+ui.city.tooltip.stability=Σταθερότητα
+ui.city.tooltip.food_supply=Προμήθεια Τροφίμων
+ui.city.tooltip.food_stockpile=Απόθεμα Τροφίμων
+ui.city.tooltip.consumer_goods=Καταναλωτικά Αγαθά
+ui.city.tooltip.cg_stockpile=Απόθεμα Καταναλωτικών Αγαθών
+ui.city.tooltip.manpower_pool=Δεξαμενή Εργατικού Δυναμικού
+ui.city.tooltip.building_health=Ακεραιότητα Κτηρίων
+ui.city.tooltip.damaged=Έχει υποστεί ζημιές
+ui.city.tooltip.depot_supply=Προμήθεια Αποθηκών
+ui.city.tooltip.employment=Εργασία
+
+# Building| Construction
+ui.building.construction_site=Εργοτάξιο
+ui.building.building_label=Κτήριο
+ui.building.family_label=Οικογένεια
+ui.building.progress_label=Πρόοδος
+ui.building.remaining_label=Απομένει
+ui.building.cancel_construction=Ακύρωση Κατασκευής
+
+# Building| Tooltips
+ui.building.tooltip.health=Ακεραιότητα
+ui.building.tooltip.output_inventory=Απόθεμα προϊόντων
+ui.building.tooltip.steel=Ατσάλι
+ui.building.tooltip.supplies_stored=Αποθηκευμένες Προμήθειες
+ui.building.tooltip.manpower_stored=Εργατικό Δυναμικό
+ui.building.tooltip.fuel=Καύσιμα
+ui.building.tooltip.crude_oil=Αργό Πετρέλαιο
+ui.building.tooltip.iron_ore=Σιδηρομετάλλευμα
+ui.building.tooltip.aircraft_stored=Αποθηκευμένα Αεροσκάφη
+ui.building.tooltip.food=Τρόφιμα
+ui.building.tooltip.consumer_goods_stored=Καταναλωτικά Αγαθά
+
+# Building| Factory
+ui.building.no_family_assigned=ΔΕΝ ΕΧΕΙ ΕΠΙΛΕΓΕΙ ΟΙΚΟΓΕΝΕΙΑ
+ui.building.set_family=Επιλογή Οικογένειας
+ui.building.change=Αλλαγή
+ui.building.thr=THR
+ui.building.hq_label=HQ
+ui.building.hq_none=ΚΑΝΕΝΑ
+ui.building.no_families=Δεν υπάρχουν διαθέσιμες οικογένειες
+ui.building.none_all_families=(Κανένα - Όλες οι οικογένειες)
+ui.building.factories_assigned=Εκχωρημένα Εργοστάσια
+
+# Building| Individual Buildings (Headers)
+ui.building.oil_extractor=Εξαγωγέας Πετρελαίου
+ui.building.refinery=Διυλιστήριο
+ui.building.agri_center=Αγροτικό Κέντρο
+ui.building.iron_mine=Ορυχείο Σιδήρου
+ui.building.heavy_industry=Βαριά Βιομηχανία
+ui.building.civilian_industry=Πολιτική Βιομηχανία
+ui.building.airbase=Αεροπορική Βάση
+ui.building.arms_factory=Εργοστάσιο Όπλων
+ui.building.vehicle_factory=Εργοστάσιο Οχημάτων
+ui.building.artillery_factory=Εργοστάσιο Πυροβόλων Πυροβολικού
+
+# Building| Oil Extractor
+ui.building.oil.rate_ship=Αναλογία: %.1f bbl/s  |  Αποστολή σε: %d
+ui.building.oil.stored=Αποθηκευμένα: %d / %d βαρέλια
+ui.building.oil.next_barrel=Επόμενο βαρέλι: %.0f%%
+ui.building.oil.dispatching=Έναρξη μεταφοράς...
+ui.building.oil.filling=Γέμισμα (%d/%d)
+
+# Building| Refinery
+ui.building.refinery.rate_ship=Αναλογία: %.1f bbl/s  |  Αποστολή σε: %d
+ui.building.refinery.crude_stored=Αργό Πετρέλαιο: %d / %d
+ui.building.refinery.fuel_stored=Καύσιμα: %d / %d
+ui.building.refinery.no_crude=Δεν υπάρχει αργό πετρέλαιο - αδράνεια
+ui.building.refinery.dispatching=Αποστολή καυσίμων...
+ui.building.refinery.refining=Διύλιση...
+
+# Building| Agricultural Center
+ui.building.agri.rate_ship=Αναλογία: %.1f food/s  |  Αποστολή σε: %d
+ui.building.agri.stored=Αποθηκευμένα: %d / %d τρόφιμα
+ui.building.agri.dispatching=Έναρξη Αποστολή τροφίμων...
+ui.building.agri.harvesting=Συγκομιδή (%d/%d)...
+
+# Building| Iron Mine
+ui.building.iron.rate_ship=Εξαγωγή: %.1f tons/s  |  Αποστολή σε: %d
+ui.building.iron.stored=Αποθηκευμένα: %d / %d σιδηρομεταλλεύματα
+ui.building.iron.dispatching=Αποστολή σιδηρομεταλλευμάτων...
+ui.building.iron.mining=Εξόρυξη (%d/%d)...
+
+# Building| Heavy Industry
+ui.building.heavy.rate_ship=Μετατροπή: %.1f τόνοι/s  |  Αποστολή σε: %d
+ui.building.heavy.ore_input=Εισαγωγή σιδηρομεταλλεύματος: %d / %d
+ui.building.heavy.steel_output=Παραγωγή Ατσαλιού: %d  (ship at %d)
+ui.building.heavy.waiting_ore=Αναμονή για σιδηρομετάλλευμα...
+ui.building.heavy.dispatching=Αποστολή ατσαλιού...
+ui.building.heavy.smelting=Τήξη...
+
+# Building| Civilian Industry
+ui.building.civ.rate_ship=Rate: %.1f αγαθά/s  |  Αποστολή σε: %d
+ui.building.civ.buffer_stored=Buffer: %d αγαθά  |  Αποθηκευμένα: %d / %d
+ui.building.civ.dispatching=Αποστολή καταναλωτικών αγαθών...
+ui.building.civ.producing=Παραγωγή (%d/%d)...
+ui.building.civ.connected_urban=Συνδεδεμένες Αστικές Περιοχές
+ui.building.civ.no_urban=Δεν υπάρχουν αστικές περιοχές στο κράτος
+ui.building.civ.urban_entry=  %s (%.0f%%, q=%d, %.0fkm)
+ui.building.civ.show_less=Προβολή λιγότερων
+ui.building.civ.show_all=Προβολή όλων
+ui.building.civ.nation_status=Κατάσταση Κράτους
+ui.building.civ.avg_supply=  Μέση προμήθεια: %.0f%%  |  Χαμηλότερη: %.0f%%  |  Αστικές περιοχές: %d
+ui.building.civ.rate_demand=  Η αναλογία σας: %.1f/s  |  Συνολική ζήτηση: %.1f/s
+ui.building.civ.tooltip=Τα καταναλωτικά αγαθά βελτιώνουν τη σταθερότητα στις αστικές περιοχές και μειώνουν την αναταραχή.
+
+# Building| Depot
+ui.building.depot.equipment=Εξοπλισμός: %d / %d
+ui.building.depot.manpower=Εργατικό Δυναμικό: %d / %d
+ui.building.depot.crude=Αργό Πετρέλαιο: %d / %d
+ui.building.depot.fuel=Καύσιμα: %d / %d
+
+# Building| Airbase
+ui.building.airbase.aircraft=Αεροσκάφη: %d / %d (%d έχουν ανατεθεί)
+ui.building.airbase.stationed=Σταθμευμένα Αεροσκάφη
+ui.building.airbase.no_aircraft=Δεν υπάρχουν σταθμευμένα αεροσκάφη εδώ.
+ui.building.airbase.sorties=Έξοδοι
+ui.building.airbase.no_sorties=Δεν έχουν σχεδιαστεί έξοδοι
+ui.building.airbase.new_sortie=+ Νέα Έξοδος
+ui.building.airbase.airborne=[ΣΤΟΝ ΑΕΡΑ]
+ui.building.airbase.planned=[ΣΧΕΔΙΑΣΜΕΝΗ]
+ui.building.airbase.sortie_entry=Έξοδος #%d - %s
+ui.building.airbase.aircraft_count=Αεροσκάφη: %d  |  Alt: %.0f ft
+ui.building.airbase.target=Στόχος: (%.4f, %.4f)
+ui.building.airbase.no_target=Δεν έχει επιλεγεί στόχος
+ui.building.airbase.edit=Αλλαγή
+ui.building.airbase.dismiss=Κλείσιμο
+ui.building.airbase.launch=Έναρξη
+ui.building.airbase.x_button=X
+ui.building.airbase.assign_hq=Ανάθεση Μονάδας Διοίκησης
+ui.building.airbase.unassign=Κατάργηση ανάθεσης
+ui.building.airbase.available_fmt=(%d διαθέσιμα)
+
+# Building| Creation Tab
+ui.building.create.select_type=Επιλέξτε τύπο κτηρίου
+ui.building.create.click_to_place=Αριστερό-κλικ στον χάρτη για να τοποθετήσετε.
+ui.building.create.press_b=Πατήστε B ή Ακύρωση για να κλείσετε.
+ui.building.create.arms_factory=Εργοστάσιο Όπλων
+ui.building.create.military_hq=Στρατηγείο
+ui.building.create.depot=Αποθήκη Εφοδίων
+ui.building.create.oil_extractor=Εξαγωγέας Πετρελαίου
+ui.building.create.refinery=Διυλιστήριο
+ui.building.create.agri_center=Αγρ. Κέντρο
+ui.building.create.iron_mine=Ορυχείο Σιδήρου
+ui.building.create.heavy_industry=Βαριά Βιομηχανέια
+ui.building.create.vehicle_factory=Εργοστάσιο Οχημάτων
+ui.building.create.artillery_factory=Εργοστάσιο Πυροβόλων Πυροβολικού
+ui.building.create.civilian_industry=Πολιτική Βιομηχανία
+ui.building.create.cancel=Ακύρωση
+
+# Unit Tooltips
+ui.tooltip.unknown_unit=Άγνωστη μονάδα
+ui.tooltip.unknown=Άγνωστο
+ui.tooltip.fuel_status=Καύσιμα: %.0f%% (%+.1f/t)  Ποινή: %.0f%%
+ui.tooltip.road_health=Ακεραιότητα Δρόμου: %.0f%% (-%.0f%% speed)
+
+# Infantry / Road Health Label
+ui.label.road_health=Ακεραιότητα Δρόμου
+ui.label.health=Ακεραιότητα
+
+# Economy Tab
+ui.economy.treasury_label=Ταμείο Κράτους
+ui.economy.income_label=Έσοδα
+ui.economy.expenses_label=Έξοδα
+ui.economy.net_label=Καθαρά
+ui.economy.total_income_fmt=Συνολικά Έσοδα:      +%.1f /s
+ui.economy.total_expenses_fmt=Συνολικά Έξοδα:    -%.1f /s
+ui.economy.net_fmt=Καθαρά:               %+.1f /s
+ui.economy.net_tooltip_fmt=Αναλογία καθαρού εισοδήματος. Με αυτή την αναλογία, το ταμείο θα %s κατά %.0f μέσα στο επόμενο λεπτό.
+ui.economy.net_grow=Ανάπτυξη
+ui.economy.net_shrink=Πτώση
+ui.economy.urban_tax_fmt=Αστική Φορολογία:    +%.1f /s
+ui.economy.oil_exports_fmt=Εξαγωγή Πετρελαίου:       +%.1f /s
+ui.economy.foreign_aid_fmt=Ξένη Βοήθεια:       +%.1f /s
+ui.economy.military_upkeep_fmt=Συντήρηση Στρατού:   -%.1f /s
+ui.economy.building_upkeep_fmt=Συντήρηση Κτηρίων:   -%.1f /s
+ui.economy.equip_purchases_fmt=Επιλεγ. Αγορές:  -%.1f /s
+ui.economy.resources_label=Εθνικά Αποθέματα Πόρων
+ui.economy.crude_oil_fmt=Αργό Πετρέλαιο:        %d
+ui.economy.fuel_fmt=Καύσιμα:             %d
+ui.economy.iron_ore_fmt=Σιδηρομετάλλευμα:         %d
+ui.economy.steel_fmt=Ατσάλι:            %d
+ui.economy.food_fmt=Τρόφιμα:             %d
+ui.economy.consumer_goods_fmt=Καταναλωτικά Αγαθά:   %d
+
+# Economy| Tooltips
+ui.economy.tooltip.tax=Εισόδημα από φόρους αστικών πληθυσμών υπό τον έλεγχό σας.\Περίπου 1 treasury/sec ανά 1000 πολίτες.
+ui.economy.tooltip.oil=Εισόδημα από την εξαγωγή του πλεονάσματος αργού πετρελαίου\n(παραγωγή που υπερβαίνει την κατανάλωση των εγχώριων διυλιστηρίων και των μονάδων).\n1 barrel/sec surplus = 0.5 treasury/sec.
+ui.economy.tooltip.aid=Οικονομική ενίσχυση από άλλα κράτη\nστο πλαίσιο ενεργών συμφωνιών Οικονομικής Ενίσχυσης.
+ui.economy.tooltip.military_upkeep=Συντήρηση εξοπλισμού (0.5%% του κόστους παραγωγής/sec ανά μονάδα)\n+ μισθοί προσωπικού (0.5/sec ανά μονάδα).
+ui.economy.tooltip.building_upkeep=Έξοδα συντήρησης για όλα τα κτήρια.\nΕργοστάσια: 1.0/s, HQ: 2.0/s, Αποθήκες: 0.5/s,\nΠετρέλαιο/Διυλιστήριο/Ορυχείο/Βαρ.Βιομ.: 1.5/s,\nΑγρ.: 0.5/s, Πολ.Βιομ.: 0.3/s, Αεροπορικές βάσεις: 3.0/s.
+ui.economy.tooltip.equip_purchases=Αποσβεσμένο κόστος αγορασμένου εξοπλισμού\nαπό άλλα κράτη μέσω συμφωνιών αγοράς εξοπλισμού.
+
+# Politics Tab
+ui.politics.political_support_label=Πολιτική Στήριξη
+ui.politics.civilian_stability_label=Πολιτική Σταθερότητα
+ui.politics.victory_progress_label=Πρόοδος προς τη νίκη
+ui.politics.active_policies_label=Ενεργές Πολιτικές
+ui.politics.objectives_label=Στόχοι
+ui.politics.conscription_label=Στράτευση
+ui.politics.economy_label=Οικονομία
+ui.politics.security_label=Ασφάλεια
+ui.politics.hold_until_fmt=Διατήρηση μέχρι: %04d-%02d-%02d
+ui.politics.elite=Ελίτ
+ui.politics.military=Ένοπλες Δυνάμεις
+ui.politics.government=Κυβέρνηση
+ui.politics.urban_civilian=Αστικός Πολίτης
+
+# Politics| Policy Effects
+ui.politics.effects_on_selection=Επιδράσεις κατά την επιλογή
+ui.politics.effect.elite=Ελίτ
+ui.politics.effect.military=Ένοπλες Δυνάμεις
+ui.politics.effect.government=Κυβέρνηση
+ui.politics.effect.urban_civilian=Αστικός Πολίτης
+ui.politics.effect.stability=Σταθερότητα
+ui.politics.effect.manpower=Εργατικό Δυναμικό
+ui.politics.effect.factory_output=Παραγωγή Εργοστασίων
+ui.politics.effect.consumer_goods=Καταναλωτικά Αγαθά
+ui.politics.effect.no_change=Καμία αλλαγή
+
+# Military Tab
+ui.military.unit_composition=Επεξεργαστής Σύνθεσης Μονάδας
+ui.military.live_unit_editor=Επεξεργαστής Υπαρχόντων Μονάδων
+ui.military.unit_types=Τύποι Μονάδων
+ui.military.selected_fmt=Επιλεγμένα (%d)
+ui.military.composition=Σύνθεση
+ui.military.no_units=Δεν έχουν επιλεγεί μονάδες.
+ui.military.composition_goals_fmt=Στόχοι Σύνθεσης  (%d unit%s)
+ui.military.goal=Στόχος
+ui.military.sync_all=Συγχρονισμός Όλων
+ui.military.select_prompt=Επιλέξτε έναν τύπο μονάδας από τη λίστα, ή επιλέξτε μονάδες στον χάρτη και πατήστε C.
+ui.military.add_family=+ Προσθήκη Οικογένειας
+
+# Sortie Tab
+ui.sortie.airborne=ΣΤΟΝ ΑΕΡΑ
+ui.sortie.planned=ΣΧΕΔΙΑΣΜΕΝΕς
+ui.sortie.title_fmt=Έξοδος #%d [%s]
+ui.sortie.aircraft_assigned=Επιλεγμένα Αεροσκάφη
+ui.sortie.none_assigned=Κανένα επιλεγμένο
+ui.sortie.add_aircraft=Προσθήκη Αεροσκάφους
+ui.sortie.remove_aircraft=Αφαίρεση Αεροσκάφους
+ui.sortie.select_aircraft=Επιλέξτε Τύπο Αεροσκάφους
+ui.sortie.no_aircraft_avail=Δεν υπάρχουν διαθέσιμα αεροσκάφη
+ui.sortie.mission_label=Αποστολή
+ui.sortie.target_label=Στόχος
+ui.sortie.no_target_set=Δεν έχει επιλεγεί στόχος
+ui.sortie.set_target=Επιλογή στόχου στον χάρτη
+ui.sortie.click_map=Πατήστε στον χάρτη...
+ui.sortie.clear=Καθαρό
+ui.sortie.altitude=Ύψος
+ui.sortie.air_radius=Εμβέλεια αέρος-αέρος
+ui.sortie.mission_strength=Δύναμη Αποστολής
+ui.sortie.org_efficiency=Οργ. Αποτελεσματικότητα
+ui.sortie.large_batch=(Συντελεστής μεγάλου σμήνους)
+ui.sortie.low_fuel=ΧΑΜΗΛΑ ΚΑΥΣΙΜΑ
+ui.sortie.slowest_aircraft=Πιο αργό αεροσκάφος: %.6f u/s
+ui.sortie.time_airborne=Χρόνος στον αέρα: %.0f s
+ui.sortie.dismiss_recall=Ακύρωση (Ανάκληση Αεροσκαφών)
+ui.sortie.close=Κλείσιμο
+ui.sortie.launch_sortie=ΕΝΑΡΞΗ ΕΞΟΔΟΥ
+ui.sortie.need_aircraft=Χρειάζονται αεροσκάφη και στόχος για την έναρξη
+ui.sortie.launch_idle=Έναρξη χωρίς στόχο (Αδρανής περιπολία)
+
+# Sortie| Aircraft Tooltip
+ui.sortie.tooltip.alt=Υψ
+ui.sortie.tooltip.mission=Αποστολή
+ui.sortie.tooltip.strength=Δύναμη
+ui.sortie.tooltip.efficiency=Αποτελεσματικότητα
+ui.sortie.tooltip.fuel_fmt=Καύσιμα: %.0f / %.0f (%.0f%%)
+ui.sortie.tooltip.helicopter=(Ελικόπτερο)
+ui.sortie.tooltip.phase=Φάση
+ui.sortie.tooltip.state=Κατάσταση
+
+# Sortie — Flight Phases
+ui.sortie.phase.transit=Διέλευση
+ui.sortie.phase.racetrack=Πίστα αγώνα
+ui.sortie.phase.figure8=Figure-8
+ui.sortie.phase.ingress=Είσοδος
+ui.sortie.phase.egress=Έξοδος
+ui.sortie.phase.weave=Μανούβρες
+ui.sortie.state.transit=Διέλευση
+ui.sortie.state.on_station=Σταθμευμένα
+ui.sortie.state.rtb=Επιστροφή στη βάση
+
+# City Tab| Construction Buttons
+ui.button.agri_center=Αγρ. Κέντρο
+ui.button.civ_industry=Πολ. Βιομηχανία
+ui.button.airbase=Αεροπορική βάση
+
+# Unit Creation Tab
+ui.window.unit_creator=Δημιουργία Μονάδων
+
+# End Game
+ui.endgame.title=ΝΙΚΗ
+ui.endgame.subtitle=Όλοι οι στόχοι επετεύχθησαν. Το έθνος είναι ενωμένο.
+
+# HQ Assignment
+ui.building.hq_name=Στρατηγείο
+ui.building.hq_assign=Επιλογή Στρατηγείου
+ui.building.hq_unassign=Αποεπιλογή
